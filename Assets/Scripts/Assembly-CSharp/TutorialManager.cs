@@ -7,6 +7,9 @@ public class TutorialManager : ILoadable
 {
 	public Dictionary<string, TutorialInfo> tutorials = new Dictionary<string, TutorialInfo>();
 
+	// Keeps the blueprint order intact for developer tools that need to move through a flow step by step.
+	public List<string> tutorialOrder = new List<string>();
+
 	public Dictionary<TutorialTrigger, TutorialInfo> triggers = new Dictionary<TutorialTrigger, TutorialInfo>();
 
 	public Dictionary<string, string> tweenTriggers = new Dictionary<string, string>();
@@ -136,6 +139,7 @@ public class TutorialManager : ILoadable
 			info.dummy = TFUtils.LoadString(dict, "Type", string.Empty) == "dummy";
 			info.Flow = TFUtils.LoadString(dict, "Flow", string.Empty);
 			tutorials.Add(info.TutorialID, info);
+			tutorialOrder.Add(info.TutorialID);
 			if (!string.IsNullOrEmpty(info.TweenTrigger))
 			{
 				tweenTriggers.Add(info.TweenTrigger, info.TutorialID);

@@ -86,18 +86,8 @@ public class CWGachaChooseChest : MonoBehaviour
 			instance.openAnimScript.clipName = "NChest_OpenLvl5_0";
 			instance.closeAnimScript.target = instance.normalChestAnim;
 			instance.closeAnimScript.clipName = "NChest_End";
-			UIButtonPlayAnimation[] components2 = instance.openCameraScript.gameObject.GetComponents<UIButtonPlayAnimation>();
-			UIButtonPlayAnimation[] array3 = components2;
-			foreach (UIButtonPlayAnimation uIButtonPlayAnimation3 in array3)
-			{
-				uIButtonPlayAnimation3.clipName = "NChest_OpenLvl5_0";
-			}
-			components2 = instance.closeCameraScript.gameObject.GetComponents<UIButtonPlayAnimation>();
-			UIButtonPlayAnimation[] array4 = components2;
-			foreach (UIButtonPlayAnimation uIButtonPlayAnimation4 in array4)
-			{
-				uIButtonPlayAnimation4.clipName = "NChest_End";
-			}
+			SetCameraAnimationClip(instance.openCameraScript, instance.openAnimScript, "NChest_OpenLvl5");
+			SetCameraAnimationClip(instance.closeCameraScript, instance.closeAnimScript, "NChest_End_0");
 			break;
 		}
 		case CWGachaController.ChestType.Premium:
@@ -106,20 +96,26 @@ public class CWGachaChooseChest : MonoBehaviour
 			instance.openAnimScript.clipName = "PChest_OpenLvl5_0";
 			instance.closeAnimScript.target = instance.premiumChestAnim;
 			instance.closeAnimScript.clipName = "PChest_End";
-			UIButtonPlayAnimation[] components = instance.openCameraScript.gameObject.GetComponents<UIButtonPlayAnimation>();
-			UIButtonPlayAnimation[] array = components;
-			foreach (UIButtonPlayAnimation uIButtonPlayAnimation in array)
-			{
-				uIButtonPlayAnimation.clipName = "PChest_OpenLvl5_0";
-			}
-			components = instance.closeCameraScript.gameObject.GetComponents<UIButtonPlayAnimation>();
-			UIButtonPlayAnimation[] array2 = components;
-			foreach (UIButtonPlayAnimation uIButtonPlayAnimation2 in array2)
-			{
-				uIButtonPlayAnimation2.clipName = "PChest_End";
-			}
+			SetCameraAnimationClip(instance.openCameraScript, instance.openAnimScript, "PChest_OpenLvl5");
+			SetCameraAnimationClip(instance.closeCameraScript, instance.closeAnimScript, "PChest_End_0");
 			break;
 		}
+		}
+	}
+
+	private static void SetCameraAnimationClip(UIButtonPlayAnimation cameraScript, UIButtonPlayAnimation chestScript, string clipName)
+	{
+		if (cameraScript == null)
+		{
+			return;
+		}
+		UIButtonPlayAnimation[] components = cameraScript.gameObject.GetComponents<UIButtonPlayAnimation>();
+		foreach (UIButtonPlayAnimation component in components)
+		{
+			if (component != chestScript && component.target != null)
+			{
+				component.clipName = clipName;
+			}
 		}
 	}
 }
