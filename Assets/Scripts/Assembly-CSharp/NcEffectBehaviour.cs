@@ -74,10 +74,10 @@ public class NcEffectBehaviour : MonoBehaviour
 
 	protected static void SetActiveRecursively(GameObject target, bool bActive)
 	{
-		int num = target.transform.GetChildCount() - 1;
+		int num = target.transform.childCount - 1;
 		while (0 <= num)
 		{
-			if (num < target.transform.GetChildCount())
+			if (num < target.transform.childCount)
 			{
 				SetActiveRecursively(target.transform.GetChild(num).gameObject, bActive);
 			}
@@ -93,10 +93,10 @@ public class NcEffectBehaviour : MonoBehaviour
 
 	protected static void RemoveAllChildObject(GameObject parent, bool bImmediate)
 	{
-		int num = parent.transform.GetChildCount() - 1;
+		int num = parent.transform.childCount - 1;
 		while (0 <= num)
 		{
-			if (num < parent.transform.GetChildCount())
+			if (num < parent.transform.childCount)
 			{
 				Transform child = parent.transform.GetChild(num);
 				if (bImmediate)
@@ -349,16 +349,8 @@ public class NcEffectBehaviour : MonoBehaviour
 		{
 			if (particleSystem != null)
 			{
-				particleSystem.enableEmission = false;
-			}
-		}
-		ParticleEmitter[] componentsInChildren4 = base.gameObject.GetComponentsInChildren<ParticleEmitter>(true);
-		ParticleEmitter[] array4 = componentsInChildren4;
-		foreach (ParticleEmitter particleEmitter in array4)
-		{
-			if (particleEmitter != null)
-			{
-				particleEmitter.emit = false;
+				var emission = particleSystem.emission;
+				emission.enabled = false;
 			}
 		}
 	}

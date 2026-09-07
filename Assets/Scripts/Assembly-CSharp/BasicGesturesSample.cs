@@ -87,10 +87,10 @@ public class BasicGesturesSample : SampleBase
 
 	private void SpawnParticles(GameObject obj)
 	{
-		ParticleEmitter componentInChildren = obj.GetComponentInChildren<ParticleEmitter>();
+		ParticleSystem componentInChildren = obj.GetComponentInChildren<ParticleSystem>();
 		if ((bool)componentInChildren)
 		{
-			componentInChildren.Emit();
+			componentInChildren.Emit(1);
 		}
 	}
 }

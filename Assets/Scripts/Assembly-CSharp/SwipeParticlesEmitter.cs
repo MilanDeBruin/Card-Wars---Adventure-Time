@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class SwipeParticlesEmitter : MonoBehaviour
 {
-	public ParticleEmitter emitter;
+	public ParticleSystem emitter;
 
 	public float baseSpeed = 4f;
 
@@ -12,18 +12,20 @@ public class SwipeParticlesEmitter : MonoBehaviour
 	{
 		if (!emitter)
 		{
-			emitter = GetComponent<ParticleEmitter>();
+			emitter = GetComponent<ParticleSystem>();
 		}
-		emitter.emit = false;
+		var emission = emitter.emission;
+		emission.enabled = false;
 	}
 
 	public void Emit(Vector3 heading, float swipeVelocity)
 	{
 		emitter.transform.rotation = Quaternion.LookRotation(heading);
-		Vector3 localVelocity = emitter.localVelocity;
-		localVelocity.z = baseSpeed * swipeVelocityScale * swipeVelocity;
-		emitter.localVelocity = localVelocity;
-		emitter.Emit();
+		var velocityOverLifetime = emitter.velocityOverLifetime;
+		velocityOverLifetime.enabled = true;
+		velocityOverLifetime.space = ParticleSystemSimulationSpace.Local;
+		velocityOverLifetime.z = baseSpeed * swipeVelocityScale * swipeVelocity;
+		emitter.Emit(1);
 	}
 
 	public static Vector3 GetSwipeDirectionVector(FingerGestures.SwipeDirection direction)

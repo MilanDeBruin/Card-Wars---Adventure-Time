@@ -31,7 +31,7 @@ public class FingerEventsSamplePart1 : SampleBase
 
 	private Material originalHoverMaterial;
 
-	private ParticleEmitter stationaryParticleEmitter;
+	private ParticleSystem stationaryParticleEmitter;
 
 	private void OnFingerDown(FingerDownEvent e)
 	{
@@ -90,9 +90,9 @@ public class FingerEventsSamplePart1 : SampleBase
 			{
 				float num = Mathf.Clamp01((e.ElapsedTime - chargeDelay) / chargeTime);
 				float num2 = Mathf.Lerp(minSationaryParticleEmissionCount, maxSationaryParticleEmissionCount, num);
-				stationaryParticleEmitter.minEmission = num2;
-				stationaryParticleEmitter.maxEmission = num2;
-				stationaryParticleEmitter.emit = true;
+				var emission = stationaryParticleEmitter.emission;
+				emission.rateOverTime = num2;
+				emission.enabled = true;
 				base.UI.StatusText = "Charge: " + (100f * num).ToString("N1") + "%";
 			}
 		}
@@ -116,22 +116,23 @@ public class FingerEventsSamplePart1 : SampleBase
 		base.Start();
 		if ((bool)fingerStationaryObject)
 		{
-			stationaryParticleEmitter = fingerStationaryObject.GetComponentInChildren<ParticleEmitter>();
+			stationaryParticleEmitter = fingerStationaryObject.GetComponentInChildren<ParticleSystem>();
 		}
 	}
 
 	private void StopStationaryParticleEmitter()
 	{
-		stationaryParticleEmitter.emit = false;
+		var emission = stationaryParticleEmitter.emission;
+		emission.enabled = false;
 		base.UI.StatusText = string.Empty;
 	}
 
 	private void SpawnParticles(GameObject obj)
 	{
-		ParticleEmitter componentInChildren = obj.GetComponentInChildren<ParticleEmitter>();
+		ParticleSystem componentInChildren = obj.GetComponentInChildren<ParticleSystem>();
 		if ((bool)componentInChildren)
 		{
-			componentInChildren.Emit();
+			componentInChildren.Emit(1);
 		}
 	}
 }

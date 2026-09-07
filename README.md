@@ -29,4 +29,6 @@ It's CARD WARS!
 ![CardWars_F7nDRbIxel](https://i.imgur.com/N3BH326.jpg)
 
 ## Contributing
-Card Wars uses Unity 2017.4.40f1. No other dependencies are required.
+Card Wars uses Unity 2018.4.36f1 (see `ProjectSettings/ProjectVersion.txt`). No other dependencies are required.
+
+Gameplay regression tests run automatically in the editor after script compilation and asset imports, and before player builds. Run them manually with **Tools > Card Wars > Run Gameplay Regression Tests**, or `./scripts/Test-Gameplay.ps1` when the project is closed in Unity. See [gameplay tests and release scenarios](docs/GameplayRegression.md) for coverage and CI instructions.
