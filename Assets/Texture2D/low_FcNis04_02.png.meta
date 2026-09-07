@@ -1,7 +1,5 @@
 fileFormatVersion: 2
 guid: 1b210268fae42fe4db19ebac9362b5ee
-timeCreated: 1698412287
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: iceking02
@@ -9,7 +7,7 @@ TextureImporter:
     21300004: Border
     21300006: dialog01
   externalObjects: {}
-  serializedVersion: 4
+  serializedVersion: 9
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -27,6 +25,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -49,18 +49,21 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -124,6 +127,12 @@ TextureImporter:
         - {x: -112, y: 75.75}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: dbf87e5e1acb0aa47be9c99b9089a4c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: gunterback2
       rect:
@@ -142,6 +151,12 @@ TextureImporter:
         - {x: 182, y: 72}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 06d0fc9ec09f3eb47b1c450bedab1ca2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Border
       rect:
@@ -160,6 +175,12 @@ TextureImporter:
         - {x: 6, y: -6}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e5721cadbdc0e3742a0228d1f0890fad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: dialog01
       rect:
@@ -178,9 +199,23 @@ TextureImporter:
         - {x: 24.5, y: 24.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 94149afc47de0a44e89164f4df49f96c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
-  spritePackingTag:
-  userData:
-  assetBundleName:
-  assetBundleVariant:
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

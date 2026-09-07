@@ -142,11 +142,6 @@ public class NcParticleEmit : NcEffectBehaviour
 		}
 		Vector3 vector = base.transform.position + m_AddStartPos + m_ParticlePrefab.transform.position;
 		m_CreateGameObject.transform.position = new Vector3(Random.Range(0f - m_RandomRange.x, m_RandomRange.x) + vector.x, Random.Range(0f - m_RandomRange.y, m_RandomRange.y) + vector.y, Random.Range(0f - m_RandomRange.z, m_RandomRange.z) + vector.z);
-		if (m_CreateGameObject.GetComponent<ParticleEmitter>() != null)
-		{
-			m_CreateGameObject.GetComponent<ParticleEmitter>().Emit(m_EmitCount);
-			return;
-		}
 		if (m_ps == null)
 		{
 			m_ps = m_CreateGameObject.GetComponent<ParticleSystem>();

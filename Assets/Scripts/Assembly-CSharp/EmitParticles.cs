@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class EmitParticles : MonoBehaviour
 {
-	public ParticleEmitter emitter;
+	public ParticleSystem emitter;
 
 	public Transform left;
 
@@ -14,7 +14,7 @@ public class EmitParticles : MonoBehaviour
 
 	public void Emit()
 	{
-		emitter.Emit();
+		emitter.Emit(1);
 	}
 
 	public void Emit(Vector3 dir)

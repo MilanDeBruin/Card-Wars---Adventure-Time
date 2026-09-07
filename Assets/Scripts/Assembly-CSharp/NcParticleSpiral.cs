@@ -127,12 +127,13 @@ public class NcParticleSpiral : NcEffectBehaviour
 		m_fStartTime = NcEffectBehaviour.GetEngineTime();
 		if (m_ParticlePrefab == null)
 		{
-			ParticleEmitter component = GetComponent<ParticleEmitter>();
+			ParticleSystem component = GetComponent<ParticleSystem>();
 			if (component == null)
 			{
 				return;
 			}
-			component.emit = false;
+			var emission = component.emission;
+			emission.enabled = false;
 		}
 		defaultSettings = getSettings();
 	}
@@ -153,20 +154,19 @@ public class NcParticleSpiral : NcEffectBehaviour
 		{
 			gameObject = base.gameObject;
 		}
-		ParticleEmitter component = gameObject.GetComponent<ParticleEmitter>();
+		ParticleSystem component = gameObject.GetComponent<ParticleSystem>();
 		if (component == null)
 		{
 			return;
 		}
-		component.emit = false;
-		component.useWorldSpace = false;
-		ParticleAnimator component2 = component.transform.GetComponent<ParticleAnimator>();
-		if (component2 != null)
-		{
-			component2.autodestruct = true;
-		}
-		component.Emit(m_nNumberOfArms * m_nParticlesPerArm);
-		Particle[] particles = component.particles;
+		var emission = component.emission;
+		emission.enabled = false;
+		var main = component.main;
+		main.simulationSpace = ParticleSystemSimulationSpace.Local;
+		int particleCount = m_nNumberOfArms * m_nParticlesPerArm;
+		component.Emit(particleCount);
+		ParticleSystem.Particle[] particles = new ParticleSystem.Particle[particleCount];
+		int emittedParticleCount = component.GetParticles(particles);
 		float num = (float)Math.PI * 2f / (float)m_nNumberOfArms;
 		for (int i = 0; i < m_nNumberOfArms; i++)
 		{
@@ -185,15 +185,11 @@ public class NcParticleSpiral : NcEffectBehaviour
 				position.x = x;
 				position.z = z;
 				position.y += (float)j * m_fVerticalTurnDistance;
-				if (component.useWorldSpace)
-				{
-					position = base.transform.TransformPoint(position);
-				}
 				particles[num4].position = position;
 				num3 += m_fParticleSeparation;
 				if (m_fFadeValue != 0f)
 				{
-					particles[num4].energy = particles[num4].energy * (1f - Mathf.Abs(m_fFadeValue)) + particles[num4].energy * Mathf.Abs(m_fFadeValue) * (float)((!(m_fFadeValue < 0f)) ? (j + 1) : (m_nParticlesPerArm - j)) / (float)m_nParticlesPerArm;
+					particles[num4].remainingLifetime = particles[num4].remainingLifetime * (1f - Mathf.Abs(m_fFadeValue)) + particles[num4].remainingLifetime * Mathf.Abs(m_fFadeValue) * (float)((!(m_fFadeValue < 0f)) ? (j + 1) : (m_nParticlesPerArm - j)) / (float)m_nParticlesPerArm;
 				}
 				if (m_fSizeValue != 0f)
 				{
@@ -201,7 +197,7 @@ public class NcParticleSpiral : NcEffectBehaviour
 				}
 			}
 		}
-		component.particles = particles;
+		component.SetParticles(particles, emittedParticleCount);
 	}
 
 	private void Update()
@@ -282,21 +278,16 @@ public class NcParticleSpiral : NcEffectBehaviour
 
 	private void killCurrentEffects()
 	{
-		ParticleEmitter[] componentsInChildren = base.transform.GetComponentsInChildren<ParticleEmitter>();
-		ParticleEmitter[] array = componentsInChildren;
-		foreach (ParticleEmitter particleEmitter in array)
+		ParticleSystem[] particleSystems = base.transform.GetComponentsInChildren<ParticleSystem>();
+		foreach (ParticleSystem particleSystem in particleSystems)
 		{
-			ParticleAnimator component = particleEmitter.transform.GetComponent<ParticleAnimator>();
-			if (component != null)
+			ParticleSystem.Particle[] particles = new ParticleSystem.Particle[particleSystem.particleCount];
+			int particleCount = particleSystem.GetParticles(particles);
+			for (int j = 0; j < particleCount; j++)
 			{
-				component.autodestruct = true;
+				particles[j].remainingLifetime = Mathf.Min(particles[j].remainingLifetime, 0.1f);
 			}
-			Particle[] particles = particleEmitter.particles;
-			for (int j = 0; j < particles.Length; j++)
-			{
-				particles[j].energy = 0.1f;
-			}
-			particleEmitter.particles = particles;
+			particleSystem.SetParticles(particles, particleCount);
 		}
 	}
 

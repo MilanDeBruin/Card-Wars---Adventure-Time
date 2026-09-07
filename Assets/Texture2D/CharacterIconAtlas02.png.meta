@@ -1,7 +1,5 @@
 fileFormatVersion: 2
 guid: adf4d8805a8dde949a4249cdf2bb7d16
-timeCreated: 1698412192
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: Portrait_TreasureCat_Frame
@@ -61,7 +59,7 @@ TextureImporter:
     21300108: Portrait_ValentineIceKing_Hero
     21300110: Portrait_ValentineIceKing_Frame
   externalObjects: {}
-  serializedVersion: 4
+  serializedVersion: 9
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -79,6 +77,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -101,18 +101,21 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -143,6 +146,12 @@ TextureImporter:
         - {x: 64, y: 64}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4f1db7fd98e7ceb43a626ad0fa51af31
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_TreasureCat_Round
       rect:
@@ -163,6 +172,12 @@ TextureImporter:
         - {x: 64, y: 42}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 3b0bfded82afaa0409b447c31c465894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_TreasureCat_Hero
       rect:
@@ -181,6 +196,12 @@ TextureImporter:
         - {x: 128, y: 128}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 78b7ffc80fbfb024bbd670be54116f89
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_BerryBones_Round
       rect:
@@ -215,6 +236,12 @@ TextureImporter:
         - {x: -113, y: -71}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 174b6b0fed1bb6840b6dfd452b5914c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_BerryBones_Frame
       rect:
@@ -233,6 +260,12 @@ TextureImporter:
         - {x: 128, y: 128}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e7ec2ef239e01ba43bdf55ac67277861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_BoneNut_Frame
       rect:
@@ -251,6 +284,12 @@ TextureImporter:
         - {x: 128, y: 128}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 5c698fe40ad45a94cb4022c08509e7a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_SnowJam_Hero
       rect:
@@ -269,6 +308,12 @@ TextureImporter:
         - {x: 128, y: 128}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 9c48d6f79d7248844a5f45b89a9825f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_BoneChill_Hero
       rect:
@@ -287,6 +332,12 @@ TextureImporter:
         - {x: 128, y: 128}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e9710cdb7d567ba449d39ec35cd1b0ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_SnowBerry_Hero
       rect:
@@ -305,6 +356,12 @@ TextureImporter:
         - {x: 128, y: 128}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: eb8fbfb749a77ed4da7be9f6908c3a6b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_BoneChill_Frame
       rect:
@@ -323,6 +380,12 @@ TextureImporter:
         - {x: 64, y: 64}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f477f43f83a8b074db0bcc05791aa75e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_BoneChill_Round
       rect:
@@ -346,6 +409,12 @@ TextureImporter:
         - {x: -31, y: -64}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4155910a9e63ff14cbb05f68b4cbccb4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_SkeleLumps_Round
       rect:
@@ -367,6 +436,12 @@ TextureImporter:
         - {x: 64, y: -64}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ff0d66711f7008d4eaef6026c60c7391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_SnowNut_Frame
       rect:
@@ -385,6 +460,12 @@ TextureImporter:
         - {x: 128, y: 128}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a39613e313f6c0641b57f2b0883d39d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_SnowNut_Hero
       rect:
@@ -403,6 +484,12 @@ TextureImporter:
         - {x: 128, y: 128}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6b678c9d3f6f1f043873c5f50312b8f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_BerryBones_Hero
       rect:
@@ -421,6 +508,12 @@ TextureImporter:
         - {x: 128, y: 128}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8b8bf0d9d6873fc46a3d3300303b67d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_BoneNut_Round
       rect:
@@ -455,6 +548,12 @@ TextureImporter:
         - {x: -113, y: -71}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 61d5495efcabaff4bad5c5519b8e3077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_BoneNut_Hero
       rect:
@@ -473,6 +572,12 @@ TextureImporter:
         - {x: 128, y: 128}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8f4846bc8741d1e488e1cdf305708b90
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_SnowSnow_Round
       rect:
@@ -494,6 +599,12 @@ TextureImporter:
         - {x: 64, y: -64}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 32f912d1e3302374aa4ce7e7910e4538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_SnowBerry_Frame
       rect:
@@ -512,6 +623,12 @@ TextureImporter:
         - {x: 64, y: 64}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b133453045c5a5949a47be9bb6822d6d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_SkeleLumps_Hero
       rect:
@@ -530,6 +647,12 @@ TextureImporter:
         - {x: 128, y: 128}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: aec1cf15a6dda604b9af95e0f7b69909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_SnowJam_Round
       rect:
@@ -553,6 +676,12 @@ TextureImporter:
         - {x: -31, y: -64}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c0332ffddfb8aee4fba86da4c705dc4f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_SnowSnow_Hero
       rect:
@@ -571,6 +700,12 @@ TextureImporter:
         - {x: 128, y: 128}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c004ceb1c01f7ba498a4c126893efb9f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_SnowBerry_Round
       rect:
@@ -594,6 +729,12 @@ TextureImporter:
         - {x: -31, y: -64}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e8bb95fe9c46b4f43b608afb2516aa18
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_SkeleLumps_Frame
       rect:
@@ -612,6 +753,12 @@ TextureImporter:
         - {x: 64, y: 64}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 112d38357cbec534486d3b78c4c4ca4b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_SnowSnow_Frame
       rect:
@@ -630,6 +777,12 @@ TextureImporter:
         - {x: 64, y: 64}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 03e0359cac74c5b418b93bcfcc03544b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_SnowNut_Round
       rect:
@@ -664,6 +817,12 @@ TextureImporter:
         - {x: -113, y: -71}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 385d2ed003ca88a42833d0f344e1477b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_SnowJam_Frame
       rect:
@@ -682,6 +841,12 @@ TextureImporter:
         - {x: 64, y: 64}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ba6dee9e4c5a60a4f900ee2a7f8a8a38
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_Mimic_Frame
       rect:
@@ -700,6 +865,12 @@ TextureImporter:
         - {x: 128, y: 128}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 66015ff9db5b8794bb321d22193ef95c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_Mimic_Round
       rect:
@@ -734,6 +905,12 @@ TextureImporter:
         - {x: -113, y: -71}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 71b900d7dae9c704cbb1acc65f9ceccc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_IceQueen_Hero
       rect:
@@ -752,6 +929,12 @@ TextureImporter:
         - {x: 128, y: 128}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a2ab31d73d0651146871fbcff82495a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_IceQueen_Frame
       rect:
@@ -770,6 +953,12 @@ TextureImporter:
         - {x: 128, y: 128}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 5d490601a7b5c9c4d8f762b6f117c96e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_IceQueen_Round
       rect:
@@ -804,6 +993,12 @@ TextureImporter:
         - {x: -113, y: -71}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 1ef4250825ae3fc41b6294b8dfda4c75
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_Mimic_Hero
       rect:
@@ -822,6 +1017,12 @@ TextureImporter:
         - {x: 128, y: 128}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e3c8c64c90f51a14b9ba7037b76e4b3a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_TreasureCat_RoundLocked
       rect:
@@ -843,6 +1044,12 @@ TextureImporter:
         - {x: 64, y: -64}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 7db1592bfa3f74a438a5e9fa07872aa2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: QuestIcon_TCat
       rect:
@@ -873,6 +1080,12 @@ TextureImporter:
         - {x: 91, y: -98}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: cb147ab2a37b1b64ea1ea7eb6bdb5ec7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: QuestIcon_TCat_Unlocked
       rect:
@@ -903,6 +1116,12 @@ TextureImporter:
         - {x: 91, y: -98}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 078943fe191a73a49b9f9a3689de8773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_ElFistoB_Round
       rect:
@@ -937,6 +1156,12 @@ TextureImporter:
         - {x: -113, y: -71}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 9f99ee374442c1140a60e1eaccb0d3a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_ElFistoA_Hero
       rect:
@@ -955,6 +1180,12 @@ TextureImporter:
         - {x: 128, y: 128}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f60e2adbda7a81446a0cb2fc941612ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_ElFistoB_Hero
       rect:
@@ -973,6 +1204,12 @@ TextureImporter:
         - {x: 128, y: 128}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 52b06c24840b6164cb6d060d2bc7d8b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_ElFistoA_Frame
       rect:
@@ -991,6 +1228,12 @@ TextureImporter:
         - {x: 128, y: 128}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 842393d0ae3a2b040931e468718e07c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_ElFistoA_Round
       rect:
@@ -1025,6 +1268,12 @@ TextureImporter:
         - {x: -113, y: -71}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f4e06fc85fc640c49b896ea983f1f4f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_ElFistoB_Frame
       rect:
@@ -1043,6 +1292,12 @@ TextureImporter:
         - {x: 128, y: 128}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: fc35b024e286dac4cab85cec866c7429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_MarshallLee_Frame
       rect:
@@ -1061,6 +1316,12 @@ TextureImporter:
         - {x: 128, y: 128}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8be735eff9002cc4fa6176d74cfd87c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_MarshallLee_Round
       rect:
@@ -1095,6 +1356,12 @@ TextureImporter:
         - {x: -113, y: -71}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 19ddd2a00906c2045a98157b1c958aa3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_MarshallLee_Hero
       rect:
@@ -1113,6 +1380,12 @@ TextureImporter:
         - {x: 128, y: 128}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a797183cc4fc2f54399911c3ed439d05
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: QuestIcon_HeroBattle_Unlocked
       rect:
@@ -1141,6 +1414,12 @@ TextureImporter:
         - {x: -86, y: -88}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: d61d02e1e52bfaa4c8eb7ec1af19541c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: QuestIcon_HeroBattle
       rect:
@@ -1169,6 +1448,12 @@ TextureImporter:
         - {x: -86, y: -88}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 973771e844e789f40a939fa817e8b36f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_LordMonochromicorn_Frame
       rect:
@@ -1187,6 +1472,12 @@ TextureImporter:
         - {x: 128, y: 128}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ecaf09f8af81e3c4697d3b18a4507c65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_PrinceGumball_Round
       rect:
@@ -1221,6 +1512,12 @@ TextureImporter:
         - {x: -106, y: -79}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e9d1ea5199043ea498f12770e48572c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_PrinceGumball_Hero
       rect:
@@ -1239,6 +1536,12 @@ TextureImporter:
         - {x: 128, y: 128}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 658356c1c407e8945a1a38a0f63cc350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_LordMonochromicorn_Hero
       rect:
@@ -1257,6 +1560,12 @@ TextureImporter:
         - {x: 128, y: 128}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 50449000e82eeee458ef4a38d1e5f474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_LordMonochromicorn_Round
       rect:
@@ -1291,6 +1600,12 @@ TextureImporter:
         - {x: -106, y: -80}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 597283684e8a14447a775230dc6692e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_PrinceGumball_Frame
       rect:
@@ -1309,6 +1624,12 @@ TextureImporter:
         - {x: 128, y: 128}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6e4d1ff9d495b394989e549704586605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_ValentineIceKing_Round
       rect:
@@ -1343,6 +1664,12 @@ TextureImporter:
         - {x: -106, y: -80}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 54c77ccd6362394469391949788c143f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_ValentineIceKing_Hero
       rect:
@@ -1361,6 +1688,12 @@ TextureImporter:
         - {x: 128, y: 128}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: fd2b781346fc18449b4e7b886a0a1754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portrait_ValentineIceKing_Frame
       rect:
@@ -1379,9 +1712,23 @@ TextureImporter:
         - {x: 128, y: 128}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 10fc6d57b8346444a81b84146f6b8b2c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
-  spritePackingTag:
-  userData:
-  assetBundleName:
-  assetBundleVariant:
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

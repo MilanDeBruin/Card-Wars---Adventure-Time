@@ -1,7 +1,5 @@
 fileFormatVersion: 2
 guid: 24fd304d0f966aa4faed0d0c9c09bc52
-timeCreated: 1698411932
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: sidequest_dialog
@@ -10,7 +8,7 @@ TextureImporter:
     21300006: sidequest_roundframe
     21300008: Tutorial_Arrow
   externalObjects: {}
-  serializedVersion: 4
+  serializedVersion: 9
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -28,6 +26,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -50,18 +50,21 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -92,6 +95,12 @@ TextureImporter:
         - {x: 24, y: 24.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: cdc5101bb2790354bb47306f65ed3be0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: sidequest_exclaim
       rect:
@@ -110,6 +119,12 @@ TextureImporter:
         - {x: 9.5, y: -35.75}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 1e515280f6706e24886ba80914b995c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: sidequest_roundpanel
       rect:
@@ -133,6 +148,12 @@ TextureImporter:
         - {x: 27.75, y: -28.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ac1182a4bb983224a81c3811cd739df2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: sidequest_roundframe
       rect:
@@ -155,6 +176,12 @@ TextureImporter:
         - {x: 46.75, y: -60.25}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ada95bd5afea97d4894d1568e32fbb93
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Tutorial_Arrow
       rect:
@@ -180,9 +207,23 @@ TextureImporter:
         - {x: -17.25, y: -28.25}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a7e3ab9ac88f23142854413cbe422bcb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
-  spritePackingTag:
-  userData:
-  assetBundleName:
-  assetBundleVariant:
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

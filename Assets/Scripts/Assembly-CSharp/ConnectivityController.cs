@@ -41,20 +41,10 @@ public class ConnectivityController : MonoBehaviour
 
 	public bool CheckInternet()
 	{
-		switch (Network.TestConnection())
-		{
-		case ConnectionTesterStatus.PublicIPIsConnectable:
-			isValid = true;
-			break;
-		default:
-			isValid = false;
-			break;
-		case ConnectionTesterStatus.Undetermined:
-			break;
-		}
-		if (!isValid)
-		{
-		}
+		// Network.TestConnection was removed with Unity's legacy networking API.
+		// Internet reachability only reports whether a network route is available;
+		// CheckServer still performs the authoritative server-side connectivity test.
+		isValid = Application.internetReachability != NetworkReachability.NotReachable;
 		return isValid;
 	}
 
@@ -125,13 +115,13 @@ public class ConnectivityController : MonoBehaviour
 					Transform transform2 = transform.Find("ScrollBar");
 					if (transform2 != null)
 					{
-						Component[] componentsInChildren = transform2.GetComponentsInChildren(typeof(Collider));
+						Collider[] componentsInChildren = transform2.GetComponentsInChildren<Collider>();
 						if (componentsInChildren != null)
 						{
-							Component[] array = componentsInChildren;
+							Collider[] array = componentsInChildren;
 							for (int i = 0; i < array.Length; i++)
 							{
-								Collider collider = (Collider)array[i];
+								Collider collider = array[i];
 								if (collider != null)
 								{
 									enableInputForTutorialCallback(collider.gameObject);

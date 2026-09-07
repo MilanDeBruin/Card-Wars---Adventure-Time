@@ -86,12 +86,6 @@ public class NcParticleSystem : NcEffectBehaviour
 
 	protected ParticleSystem m_ps;
 
-	protected ParticleEmitter m_pe;
-
-	protected ParticleAnimator m_pa;
-
-	protected ParticleRenderer m_pr;
-
 	protected ParticleSystem.Particle[] m_BufPsParts;
 
 	protected ParticleSystem.Particle[] m_BufColliderOriParts;
@@ -110,7 +104,7 @@ public class NcParticleSystem : NcEffectBehaviour
 
 	public bool IsLegacy()
 	{
-		return GetComponent<ParticleEmitter>() != null && GetComponent<ParticleEmitter>().enabled;
+		return false;
 	}
 
 	public override int GetAnimationState()
@@ -158,13 +152,6 @@ public class NcParticleSystem : NcEffectBehaviour
 			m_ps = GetComponent<ParticleSystem>();
 			return;
 		}
-		m_pe = GetComponent<ParticleEmitter>();
-		m_pa = GetComponent<ParticleAnimator>();
-		m_pr = GetComponent<ParticleRenderer>();
-		if (m_pe != null)
-		{
-			m_bMeshParticleEmitter = m_pe.ToString().Contains("MeshParticleEmitter");
-		}
 	}
 
 	private void OnEnable()
@@ -193,10 +180,6 @@ public class NcParticleSystem : NcEffectBehaviour
 			if (IsShuriken())
 			{
 				ShurikenInitParticle();
-			}
-			else
-			{
-				LegacyInitParticle();
 			}
 			if (m_bBurst || 0f < m_fStartDelayTime)
 			{
@@ -230,10 +213,6 @@ public class NcParticleSystem : NcEffectBehaviour
 				if (IsShuriken())
 				{
 					m_ps.Emit(m_fBurstEmissionCount);
-				}
-				else if (m_pe != null)
-				{
-					m_pe.Emit(m_fBurstEmissionCount);
 				}
 			}
 		}
@@ -306,42 +285,6 @@ public class NcParticleSystem : NcEffectBehaviour
 				m_ps.SetParticles(m_BufColliderOriParts, m_ps.particleCount);
 			}
 		}
-		else
-		{
-			if (!(m_pe != null))
-			{
-				return;
-			}
-			Particle[] particles = m_pe.particles;
-			Particle[] particles2 = m_pe.particles;
-			LegacyScaleParticle(particles2, m_bScaleWithTransform, true);
-			for (int j = 0; j < particles2.Length; j++)
-			{
-				bool flag3 = false;
-				Vector3 position = ((!m_bWorldSpace) ? base.transform.TransformPoint(particles2[j].position) : particles2[j].position);
-				if (m_ParticleDestruct == ParticleDestruct.COLLISION)
-				{
-					if (Physics.CheckSphere(position, m_fCollisionRadius, m_CollisionLayer))
-					{
-						flag3 = true;
-					}
-				}
-				else if (m_ParticleDestruct == ParticleDestruct.WORLD_Y && position.y <= m_fDestructPosY)
-				{
-					flag3 = true;
-				}
-				if (flag3 && 0f < particles[j].energy)
-				{
-					particles[j].energy = 0f;
-					flag = true;
-					CreateAttachPrefab(position, particles2[j].size * m_fPrefabScale);
-				}
-			}
-			if (flag)
-			{
-				m_pe.particles = particles;
-			}
-		}
 	}
 
 	private void OnPreRender()
@@ -352,10 +295,6 @@ public class NcParticleSystem : NcEffectBehaviour
 			if (IsShuriken())
 			{
 				ShurikenSetRuntimeParticleScale(true);
-			}
-			else
-			{
-				LegacySetRuntimeParticleScale(true);
 			}
 		}
 	}
@@ -371,10 +310,6 @@ public class NcParticleSystem : NcEffectBehaviour
 			if (IsShuriken())
 			{
 				ShurikenSetRuntimeParticleScale(false);
-			}
-			else
-			{
-				LegacySetRuntimeParticleScale(false);
 			}
 		}
 		m_OldPos = base.transform.position;
@@ -437,11 +372,8 @@ public class NcParticleSystem : NcEffectBehaviour
 	{
 		if (m_ps != null)
 		{
-			m_ps.enableEmission = bEnable;
-		}
-		if (m_pe != null)
-		{
-			m_pe.emit = bEnable;
+			var emission = m_ps.emission;
+			emission.enabled = bEnable;
 		}
 	}
 
@@ -455,144 +387,16 @@ public class NcParticleSystem : NcEffectBehaviour
 		return m_fLegacyMaxMeshNormalVelocity * ((!m_bScaleWithTransform) ? 1f : NcTransformTool.GetTransformScaleMeanValue(base.transform));
 	}
 
-	private void LegacyInitParticle()
-	{
-		if (m_pe != null)
-		{
-			LegacySetParticle();
-		}
-	}
-
-	private void LegacySetParticle()
-	{
-		ParticleEmitter pe = m_pe;
-		ParticleAnimator pa = m_pa;
-		ParticleRenderer pr = m_pr;
-		if (pe == null || pr == null)
-		{
-			return;
-		}
-		if (m_bLegacyRuntimeScale)
-		{
-			Vector3 b = Vector3.one * m_fStartSpeedRate;
-			float fStartSpeedRate = m_fStartSpeedRate;
-			pe.minSize *= m_fStartSizeRate;
-			pe.maxSize *= m_fStartSizeRate;
-			pe.minEnergy *= m_fStartLifeTimeRate;
-			pe.maxEnergy *= m_fStartLifeTimeRate;
-			pe.minEmission *= m_fStartEmissionRate;
-			pe.maxEmission *= m_fStartEmissionRate;
-			pe.worldVelocity = Vector3.Scale(pe.worldVelocity, b);
-			pe.localVelocity = Vector3.Scale(pe.localVelocity, b);
-			pe.rndVelocity = Vector3.Scale(pe.rndVelocity, b);
-			pe.angularVelocity *= fStartSpeedRate;
-			pe.rndAngularVelocity *= fStartSpeedRate;
-			pe.emitterVelocityScale *= fStartSpeedRate;
-			if (pa != null)
-			{
-				pa.rndForce = Vector3.Scale(pa.rndForce, b);
-				pa.force = Vector3.Scale(pa.force, b);
-			}
-			pr.lengthScale *= m_fRenderLengthRate;
-			return;
-		}
-		Vector3 b2 = ((!m_bScaleWithTransform) ? Vector3.one : pe.transform.lossyScale) * m_fStartSpeedRate;
-		float num = ((!m_bScaleWithTransform) ? 1f : NcTransformTool.GetTransformScaleMeanValue(pe.transform)) * m_fStartSpeedRate;
-		float num2 = ((!m_bScaleWithTransform) ? 1f : NcTransformTool.GetTransformScaleMeanValue(pe.transform)) * m_fStartSizeRate;
-		pe.minSize *= num2;
-		pe.maxSize *= num2;
-		pe.minEnergy *= m_fStartLifeTimeRate;
-		pe.maxEnergy *= m_fStartLifeTimeRate;
-		pe.minEmission *= m_fStartEmissionRate;
-		pe.maxEmission *= m_fStartEmissionRate;
-		pe.worldVelocity = Vector3.Scale(pe.worldVelocity, b2);
-		pe.localVelocity = Vector3.Scale(pe.localVelocity, b2);
-		pe.rndVelocity = Vector3.Scale(pe.rndVelocity, b2);
-		pe.angularVelocity *= num;
-		pe.rndAngularVelocity *= num;
-		pe.emitterVelocityScale *= num;
-		if (pa != null)
-		{
-			pa.rndForce = Vector3.Scale(pa.rndForce, b2);
-			pa.force = Vector3.Scale(pa.force, b2);
-		}
-		pr.lengthScale *= m_fRenderLengthRate;
-	}
-
-	private void LegacyParticleSpeed(float fSpeed)
-	{
-		ParticleEmitter pe = m_pe;
-		ParticleAnimator pa = m_pa;
-		ParticleRenderer pr = m_pr;
-		if (!(pe == null) && !(pr == null))
-		{
-			Vector3 b = Vector3.one * fSpeed;
-			pe.minEnergy /= fSpeed;
-			pe.maxEnergy /= fSpeed;
-			pe.worldVelocity = Vector3.Scale(pe.worldVelocity, b);
-			pe.localVelocity = Vector3.Scale(pe.localVelocity, b);
-			pe.rndVelocity = Vector3.Scale(pe.rndVelocity, b);
-			pe.angularVelocity *= fSpeed;
-			pe.rndAngularVelocity *= fSpeed;
-			pe.emitterVelocityScale *= fSpeed;
-			if (pa != null)
-			{
-				pa.rndForce = Vector3.Scale(pa.rndForce, b);
-				pa.force = Vector3.Scale(pa.force, b);
-			}
-		}
-	}
-
-	private void LegacySetRuntimeParticleScale(bool bScale)
-	{
-		if (m_bLegacyRuntimeScale && m_pe != null)
-		{
-			Particle[] particles = m_pe.particles;
-			m_pe.particles = LegacyScaleParticle(particles, bScale, true);
-		}
-	}
-
-	public Particle[] LegacyScaleParticle(Particle[] parts, bool bScale, bool bPosUpdate)
-	{
-		float num = ((!bScale) ? (1f / NcTransformTool.GetTransformScaleMeanValue(base.transform)) : NcTransformTool.GetTransformScaleMeanValue(base.transform));
-		for (int i = 0; i < parts.Length; i++)
-		{
-			if (!IsMeshParticleEmitter())
-			{
-				if (m_bWorldSpace)
-				{
-					if (bPosUpdate)
-					{
-						Vector3 vector = m_OldPos - base.transform.position;
-						if (bScale)
-						{
-							parts[i].position -= vector * (1f - 1f / num);
-						}
-					}
-					parts[i].position -= base.transform.position;
-					parts[i].position *= num;
-					parts[i].position += base.transform.position;
-				}
-				else
-				{
-					parts[i].position *= num;
-				}
-			}
-			parts[i].angularVelocity *= num;
-			parts[i].velocity *= num;
-			parts[i].size *= num;
-		}
-		return parts;
-	}
-
 	private void ShurikenInitParticle()
 	{
 		if (m_ps != null)
 		{
-			m_ps.startSize *= m_fStartSizeRate;
-			m_ps.startLifetime *= m_fStartLifeTimeRate;
-			m_ps.emissionRate *= m_fStartEmissionRate;
-			m_ps.startSpeed *= m_fStartSpeedRate;
+			var main = m_ps.main;
+			main.startSizeMultiplier *= m_fStartSizeRate;
+			main.startLifetimeMultiplier *= m_fStartLifeTimeRate;
+			main.startSpeedMultiplier *= m_fStartSpeedRate;
+			var emission = m_ps.emission;
+			emission.rateOverTimeMultiplier *= m_fStartEmissionRate;
 			ParticleSystemRenderer component = GetComponent<ParticleSystemRenderer>();
 			if (component != null)
 			{
@@ -656,7 +460,6 @@ public class NcParticleSystem : NcEffectBehaviour
 		m_fEmitTime /= fSpeedRate;
 		m_fSleepTime /= fSpeedRate;
 		m_fShurikenSpeedRate *= fSpeedRate;
-		LegacyParticleSpeed(fSpeedRate);
 		m_fPrefabLifeTime /= fSpeedRate;
 		m_fPrefabSpeed *= fSpeedRate;
 	}

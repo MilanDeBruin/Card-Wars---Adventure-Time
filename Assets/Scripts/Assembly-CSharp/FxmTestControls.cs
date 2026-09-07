@@ -157,12 +157,6 @@ public class FxmTestControls : MonoBehaviour
 		{
 			m_nParticleCount += particleSystem.particleCount;
 		}
-		ParticleEmitter[] componentsInChildren2 = NcEffectBehaviour.GetRootInstanceEffect().GetComponentsInChildren<ParticleEmitter>();
-		ParticleEmitter[] array2 = componentsInChildren2;
-		foreach (ParticleEmitter particleEmitter in array2)
-		{
-			m_nParticleCount += particleEmitter.particleCount;
-		}
 		if (m_fDelayCreateTime < Time.time - m_fPlayStartTime)
 		{
 			if (IsRepeat() && m_fCreateTime + GetRepeatTime() < Time.time)
@@ -203,15 +197,7 @@ public class FxmTestControls : MonoBehaviour
 			if (transform.GetComponent<ParticleSystem>() != null)
 			{
 				num2 = 0;
-				if (NgObject.IsActive(transform.gameObject) && ((transform.GetComponent<ParticleSystem>().enableEmission && transform.GetComponent<ParticleSystem>().IsAlive()) || 0 < transform.GetComponent<ParticleSystem>().particleCount))
-				{
-					num2 = 1;
-				}
-			}
-			if (num2 < 1 && transform.GetComponent<ParticleEmitter>() != null)
-			{
-				num2 = 0;
-				if (NgObject.IsActive(transform.gameObject) && (transform.GetComponent<ParticleEmitter>().emit || 0 < transform.GetComponent<ParticleEmitter>().particleCount))
+				if (NgObject.IsActive(transform.gameObject) && (transform.GetComponent<ParticleSystem>().IsAlive() || 0 < transform.GetComponent<ParticleSystem>().particleCount))
 				{
 					num2 = 1;
 				}

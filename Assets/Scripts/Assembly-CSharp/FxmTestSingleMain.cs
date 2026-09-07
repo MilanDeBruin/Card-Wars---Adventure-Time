@@ -41,7 +41,7 @@ public class FxmTestSingleMain : MonoBehaviour
 			{
 				num = m_fRandomRange;
 			}
-			for (int i = 0; i < GetInstanceRoot().transform.GetChildCount(); i++)
+			for (int i = 0; i < GetInstanceRoot().transform.childCount; i++)
 			{
 				Object.Destroy(GetInstanceRoot().transform.GetChild(i).gameObject);
 			}
@@ -98,10 +98,10 @@ public class FxmTestSingleMain : MonoBehaviour
 
 	public static void SetActiveRecursively(GameObject target, bool bActive)
 	{
-		int num = target.transform.GetChildCount() - 1;
+		int num = target.transform.childCount - 1;
 		while (0 <= num)
 		{
-			if (num < target.transform.GetChildCount())
+			if (num < target.transform.childCount)
 			{
 				SetActiveRecursively(target.transform.GetChild(num).gameObject, bActive);
 			}

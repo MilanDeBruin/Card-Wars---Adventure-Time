@@ -1,7 +1,5 @@
 fileFormatVersion: 2
 guid: b2102076186426d44a6aba65db313939
-timeCreated: 1698412177
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: Creature_BogbansheAngel
@@ -30,7 +28,7 @@ TextureImporter:
     21300046: Building_FruitCake
     21300048: Creature_ChadBear
   externalObjects: {}
-  serializedVersion: 4
+  serializedVersion: 9
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -48,6 +46,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -70,18 +70,21 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -112,6 +115,12 @@ TextureImporter:
         - {x: 62.5, y: 62.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: aaa70cbcc0af24b4d993979e85beea5f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Spell_BloodTransfusion
       rect:
@@ -130,6 +139,12 @@ TextureImporter:
         - {x: 62.5, y: 62.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b9ef08404f9a6304bb04b9452c6ba196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Creature_Unicyclops
       rect:
@@ -148,6 +163,12 @@ TextureImporter:
         - {x: 62.5, y: 62}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: d0ff3e5fed9d03c418f6eb825ae73b12
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Creature_DrStuffenstein
       rect:
@@ -166,6 +187,12 @@ TextureImporter:
         - {x: 62.5, y: 62.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b096c1b45fa68c8449124338db3ce444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Creature_BanshePrincess
       rect:
@@ -184,6 +211,12 @@ TextureImporter:
         - {x: 62.5, y: 60.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 029780071639a044091cfdc79a0b003f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Creature_FuriousChick
       rect:
@@ -202,6 +235,12 @@ TextureImporter:
         - {x: 62.5, y: 62.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a628cc3677bb1e945bdaa125c77c7898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Creature_BansheQueen
       rect:
@@ -220,6 +259,12 @@ TextureImporter:
         - {x: 62.5, y: 62.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: bc9755987edb62e468bd5f1bd0db1c69
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Creature_BogfrogBomb
       rect:
@@ -238,6 +283,12 @@ TextureImporter:
         - {x: 62.5, y: 62.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6c701330aa7ab1e45b52010a6d1dad94
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Creature_FuriousHen
       rect:
@@ -256,6 +307,12 @@ TextureImporter:
         - {x: 62.5, y: 62.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a854447ec295af24da07814c6d499414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Building_Autoplucker
       rect:
@@ -274,6 +331,12 @@ TextureImporter:
         - {x: 62.5, y: 62.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 85a828767cae4684985ef057bd5ea959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Creature_FlySwatter
       rect:
@@ -292,6 +355,12 @@ TextureImporter:
         - {x: 62.5, y: 62.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e6924e5be3e006c42af0114a94ad9f7f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Creature_ManWitch
       rect:
@@ -310,6 +379,12 @@ TextureImporter:
         - {x: 62.5, y: 62.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 5906d376ee8022c438843aed18806d1d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Spell_BlackholePendant
       rect:
@@ -328,6 +403,12 @@ TextureImporter:
         - {x: 62.5, y: 62.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 55cf7682f5613d4459afeee21c62748b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Creature_BogBum
       rect:
@@ -346,6 +427,12 @@ TextureImporter:
         - {x: 62.5, y: 62.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 9eb55eda771daec44b0995e55879780d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Creature_Cottonpult
       rect:
@@ -364,6 +451,12 @@ TextureImporter:
         - {x: 62.5, y: 62.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 71038c3366f500143a75cd2768c26706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Creature_FuriousRooster
       rect:
@@ -382,6 +475,12 @@ TextureImporter:
         - {x: 62.5, y: 62.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 36ce6665c2e3f53459f3ab546ac2856a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Creature_PapercutTiger
       rect:
@@ -400,6 +499,12 @@ TextureImporter:
         - {x: 62.5, y: 62.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f4989d7400bb4894d8e3aa992034d82f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Creature_MusicMallard
       rect:
@@ -418,6 +523,12 @@ TextureImporter:
         - {x: 62.5, y: 62.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: af58b4ab298c1d540bb1dbe48736142a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Creature_VampCactus
       rect:
@@ -436,6 +547,12 @@ TextureImporter:
         - {x: 62.5, y: 62.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2a35c67f546be4549abf9919bbd4ff43
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Creature_VampCorn
       rect:
@@ -454,6 +571,12 @@ TextureImporter:
         - {x: 62.5, y: 62.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 06a0102d76719be49a936a01ee9b11d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Creature_VampGhost
       rect:
@@ -472,6 +595,12 @@ TextureImporter:
         - {x: 62.5, y: 62.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f3e4bf94caaad584daa18e6a98648fe8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Creature_VampBaldMan
       rect:
@@ -490,6 +619,12 @@ TextureImporter:
         - {x: 62.5, y: 62.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a28a137f577d50e41bf63b9b8b9d9661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Creature_VampMarshmallow
       rect:
@@ -508,6 +643,12 @@ TextureImporter:
         - {x: 62.5, y: 62.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c00586cef511aef47a745850e91651ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Building_FruitCake
       rect:
@@ -526,6 +667,12 @@ TextureImporter:
         - {x: 62.5, y: 62.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 493e15e9d1cc48b4cb331af6f0a443de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Creature_ChadBear
       rect:
@@ -544,9 +691,23 @@ TextureImporter:
         - {x: 62.5, y: 62.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 843f29c6b8e935740af0fdf8dea06512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
-  spritePackingTag:
-  userData:
-  assetBundleName:
-  assetBundleVariant:
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -93,6 +93,25 @@ public class CWGachaController : MonoBehaviour
 	private void Awake()
 	{
 		g_gathaManager = this;
+		EnsurePremiumChestClips();
+	}
+
+	private void EnsurePremiumChestClips()
+	{
+		if (premiumChestAnim == null)
+		{
+			return;
+		}
+		AnimationClip[] loadedClips = Resources.FindObjectsOfTypeAll<AnimationClip>();
+		for (int i = 0; i < loadedClips.Length; i++)
+		{
+			AnimationClip clip = loadedClips[i];
+			if (clip != null && (clip.name == "PChest_OpenLvl5_0" || clip.name == "PChest_End"))
+			{
+				premiumChestAnim.RemoveClip(clip.name);
+				premiumChestAnim.AddClip(clip, clip.name);
+			}
+		}
 	}
 
 	public static CWGachaController GetInstance()

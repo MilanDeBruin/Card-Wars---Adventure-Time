@@ -1,7 +1,5 @@
 fileFormatVersion: 2
 guid: cedaf59ab1eaa7049948eeeecc124b7d
-timeCreated: 1698412398
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: PARTYGOD_done
@@ -23,7 +21,7 @@ TextureImporter:
     21300032: Sidequest_ItemTreeTrunks
     21300034: TreeTrunks_give
   externalObjects: {}
-  serializedVersion: 4
+  serializedVersion: 9
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -41,6 +39,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,18 +63,21 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -163,6 +166,12 @@ TextureImporter:
         - {x: 16.5, y: -235.0247}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 295312ced51496640af617084fb360bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: PARTYGOD_give
       rect:
@@ -227,6 +236,12 @@ TextureImporter:
         - {x: -167.5247, y: -105.0081}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 327da181550eb6149a5b31ce609e5b49
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: sidequest_Button
       rect:
@@ -249,6 +264,12 @@ TextureImporter:
         - {x: 75, y: -65}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 1751aaac9ea39274f883972a3c3da0f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: sidequest_dialog
       rect:
@@ -271,6 +292,12 @@ TextureImporter:
         - {x: 36, y: -48}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 436ec5d291254004da553f5d6bd9123f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: sidequest_exclaim
       rect:
@@ -290,6 +317,12 @@ TextureImporter:
         - {x: 21.00689, y: -69.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0baacd95a67baa647b1e9ec976362b38
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: sidequest_itemCUTEKING
       rect:
@@ -317,6 +350,12 @@ TextureImporter:
         - {x: -124, y: 74.47527}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4b844b94c4f09894e840f22aeee4e929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: sidequest_itemNEWT
       rect:
@@ -387,6 +426,12 @@ TextureImporter:
         - {x: 26.49995, y: -72.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e9a5fbd70d7203245808d51bc697c412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: sidequest_itemPARTYGOD
       rect:
@@ -411,6 +456,12 @@ TextureImporter:
         - {x: 70.53806, y: -101.4835}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: d58f7a5797d47654791cd3d7583ab09f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: sidequest_roundframe
       rect:
@@ -444,6 +495,12 @@ TextureImporter:
         - {x: -96.49998, y: -75.50005}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2b785c81c7c302c4ca1dc9446d022d20
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: NEWT_done
       rect:
@@ -523,6 +580,12 @@ TextureImporter:
         - {x: 14.00691, y: -202.0167}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0808b457495818e4f91c5569633fba2b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: NEWT_give
       rect:
@@ -576,6 +639,12 @@ TextureImporter:
         - {x: -3.968399, y: -210.5247}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: eb650d408ab26064799faccd19f1cb6c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: sidequest_roundpanel
       rect:
@@ -603,6 +672,12 @@ TextureImporter:
         - {x: 7.961891, y: -59.48663}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0a6190ad5619b52469ae3fb7fed924a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sidequest_Marceline_done
       rect:
@@ -656,6 +731,12 @@ TextureImporter:
         - {x: 95.47533, y: -213.962}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 10885796fccbf844489813f33f4ad915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sidequest_Marceline_give
       rect:
@@ -709,6 +790,12 @@ TextureImporter:
         - {x: -103.9801, y: -164.462}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 809b9dea38b66b44a8973bba1344c3da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: halloween_item
       rect:
@@ -737,6 +824,12 @@ TextureImporter:
         - {x: -50.50005, y: -99}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 47eb04bfb9ae4704bba2ea3770b5f035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TreeTrunks_done
       rect:
@@ -797,6 +890,12 @@ TextureImporter:
         - {x: -97.9753, y: -161.9834}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: beaff3146f8d72e4492b12b1a7b532dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Sidequest_ItemTreeTrunks
       rect:
@@ -828,6 +927,12 @@ TextureImporter:
         - {x: -77.02473, y: -83.02468}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: d5424b249e1e4354da6e5c7a5e8b733e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TreeTrunks_give
       rect:
@@ -884,9 +989,23 @@ TextureImporter:
         - {x: -228.5381, y: 36.02467}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4db418b8452037c458f806cf0925bdc2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
-  spritePackingTag:
-  userData:
-  assetBundleName:
-  assetBundleVariant:
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

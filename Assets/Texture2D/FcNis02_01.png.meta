@@ -1,7 +1,5 @@
 fileFormatVersion: 2
 guid: b3c79e63f7db7b044a01bc8d5f80c469
-timeCreated: 1698412354
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: Cake_intro_02
@@ -12,7 +10,7 @@ TextureImporter:
     21300010: Fionna_Cake_intro_04
     21300012: dialog01
   externalObjects: {}
-  serializedVersion: 4
+  serializedVersion: 9
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -30,6 +28,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -52,18 +52,21 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -162,6 +165,12 @@ TextureImporter:
         - {x: -164.5, y: -66.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 70b536ad057ac2d4ca36c061cee7ef29
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Fionna_Cake_intro_02
       rect:
@@ -223,6 +232,12 @@ TextureImporter:
         - {x: -141.9866, y: -34.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c7423e1fcc52a6842a6cb2ff77d233e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Fionna_Cake_intro_03
       rect:
@@ -274,6 +289,12 @@ TextureImporter:
         - {x: -108.5, y: -76.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2069df2339dcc9a4580d7c59f7d5a69b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Bronut_02
       rect:
@@ -325,6 +346,12 @@ TextureImporter:
         - {x: -135.5, y: -198}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0b28c77e181e61b4fa440224ba19583e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Donutland_01
       rect:
@@ -343,6 +370,12 @@ TextureImporter:
         - {x: 480, y: 270}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c053662f4e5016e47802cfb082c08316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Fionna_Cake_intro_04
       rect:
@@ -393,6 +426,12 @@ TextureImporter:
         - {x: 47.46194, y: -209}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c93cb5bea4a17724fa7d331f1fef9151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: dialog01
       rect:
@@ -415,9 +454,23 @@ TextureImporter:
         - {x: 36, y: -48}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f9b7725fca3a5f147bd785ddc30d37e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
-  spritePackingTag:
-  userData:
-  assetBundleName:
-  assetBundleVariant:
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

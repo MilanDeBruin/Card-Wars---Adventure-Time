@@ -1,7 +1,5 @@
 fileFormatVersion: 2
 guid: 21793daa95b58cd42a52c0087ec3ce90
-timeCreated: 1698412355
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: fionnamad02
@@ -23,7 +21,7 @@ TextureImporter:
     21300032: iceking01
     21300034: iceking02
   externalObjects: {}
-  serializedVersion: 4
+  serializedVersion: 9
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -41,6 +39,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,18 +63,21 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -108,6 +111,12 @@ TextureImporter:
         - {x: 58, y: -64.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 3548c2f8101416e45b0f7df61cc255d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: fionnamad01
       rect:
@@ -130,6 +139,12 @@ TextureImporter:
         - {x: -63.25, y: -63.25}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: bfc22c77572c0144a9a1692b6f66765c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: FionnaActionb
       rect:
@@ -168,6 +183,12 @@ TextureImporter:
         - {x: -79.75, y: -70.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 926b281c6e0056d4eb675f180df5cbd1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: fionnashocked06_01
       rect:
@@ -199,6 +220,12 @@ TextureImporter:
         - {x: -74.75, y: 50.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 505bff6b1e7123b4b95fb6346d12f0bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: IceQueendefeated
       rect:
@@ -232,6 +259,12 @@ TextureImporter:
         - {x: -101.25, y: -87}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: fa629cfb2edc7854ba4957073c31af00
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: IceQueenAttack2
       rect:
@@ -260,6 +293,12 @@ TextureImporter:
         - {x: -166.5, y: -97.75}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 428d4a7f44b3ec64a9bfb3d25ffb25f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: IceQueenIdle
       rect:
@@ -293,6 +332,12 @@ TextureImporter:
         - {x: -71.75, y: 83.75}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6633efdb4f8c3bd4d8d1a0f72ed50a40
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: IceQueendefeated2
       rect:
@@ -321,6 +366,12 @@ TextureImporter:
         - {x: 82.25, y: -84.75}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a33a62ed3d4cf0740a82187af305b532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: IceQueendefeated3
       rect:
@@ -354,6 +405,12 @@ TextureImporter:
         - {x: -139.25, y: 80.75}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 220d52389ce4d604c9d2bea380c36bdb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: FionnaSwordb
       rect:
@@ -377,6 +434,12 @@ TextureImporter:
         - {x: 80.71195, y: -81.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 23b738e64d26916498de7467ea36a790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: FionnaSwordc
       rect:
@@ -403,6 +466,12 @@ TextureImporter:
         - {x: 56.25, y: -92.25}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a267bfcaba02c2948b13bb30fe51ff85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: fionnawow
       rect:
@@ -421,6 +490,12 @@ TextureImporter:
         - {x: 150.5, y: 112.25}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: aae6b4f5754e9e94b8768a85d3d689ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Ice_King_intro_03
       rect:
@@ -439,6 +514,12 @@ TextureImporter:
         - {x: 250, y: 107.75}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 7476bc54b233e404cbf1b3adf1e81349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: kinggunterb
       rect:
@@ -459,6 +540,12 @@ TextureImporter:
         - {x: 33, y: 18.75}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: cbee1d5ee5ed634428e908f50273b5e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: gunterback
       rect:
@@ -477,6 +564,12 @@ TextureImporter:
         - {x: 182.25, y: 72}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 16646a70117a29d438829e0349732429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Fionna_Cake_intro_03
       rect:
@@ -507,6 +600,12 @@ TextureImporter:
         - {x: 33.03806, y: -72.75}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ef4372b26be1bf243a4aefd0ea1b8f92
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: iceking01
       rect:
@@ -530,6 +629,12 @@ TextureImporter:
         - {x: 134.9619, y: -53.75}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b52c36b980f97284dbd621efc26e3516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: iceking02
       rect:
@@ -585,9 +690,23 @@ TextureImporter:
         - {x: 237, y: -126.25}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e4d4b758b5f8c084ca7402785aef419d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
-  spritePackingTag:
-  userData:
-  assetBundleName:
-  assetBundleVariant:
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

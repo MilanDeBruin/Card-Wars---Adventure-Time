@@ -50,16 +50,6 @@ public class NsSharedManager : MonoBehaviour
 			{
 				component.enabled = false;
 			}
-			if ((bool)gameObject.GetComponent<ParticleEmitter>())
-			{
-				gameObject.GetComponent<ParticleEmitter>().emit = false;
-				gameObject.GetComponent<ParticleEmitter>().useWorldSpace = true;
-				ParticleAnimator component2 = gameObject.GetComponent<ParticleAnimator>();
-				if ((bool)component2)
-				{
-					component2.autodestruct = false;
-				}
-			}
 			NcParticleSystem component3 = gameObject.GetComponent<NcParticleSystem>();
 			if ((bool)component3)
 			{
@@ -68,7 +58,8 @@ public class NsSharedManager : MonoBehaviour
 			ParticleSystem component4 = gameObject.GetComponent<ParticleSystem>();
 			if ((bool)component4)
 			{
-				component4.enableEmission = false;
+				var emission = component4.emission;
+				emission.enabled = false;
 			}
 			return gameObject;
 		}
@@ -83,11 +74,6 @@ public class NsSharedManager : MonoBehaviour
 			return;
 		}
 		sharedParticleGameObject.transform.position = worldPos;
-		if (sharedParticleGameObject.GetComponent<ParticleEmitter>() != null)
-		{
-			sharedParticleGameObject.GetComponent<ParticleEmitter>().Emit(nEmitCount);
-			return;
-		}
 		ParticleSystem component = sharedParticleGameObject.GetComponent<ParticleSystem>();
 		if (component != null)
 		{

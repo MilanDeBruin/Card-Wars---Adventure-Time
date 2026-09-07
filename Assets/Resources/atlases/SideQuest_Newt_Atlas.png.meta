@@ -1,14 +1,12 @@
 fileFormatVersion: 2
 guid: 78714eae43c008841b974f08409eae8f
-timeCreated: 1698411940
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: SideQuest_Newt_done
     21300002: SideQuest_Newt_item
     21300004: SideQuest_Newt_give
   externalObjects: {}
-  serializedVersion: 4
+  serializedVersion: 9
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
@@ -26,6 +24,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -48,18 +48,21 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -163,6 +166,12 @@ TextureImporter:
         - {x: 14, y: -200}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: fa9a347213274dc4bbac5d7e2b561ce7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: SideQuest_Newt_item
       rect:
@@ -236,6 +245,12 @@ TextureImporter:
         - {x: 28.5, y: -70.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 481be0c206d06bf428b60223c2b9133c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: SideQuest_Newt_give
       rect:
@@ -303,9 +318,23 @@ TextureImporter:
         - {x: -4, y: -208.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 3dbea44b86e970a44af33a64b7788f2e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
-  spritePackingTag:
-  userData:
-  assetBundleName:
-  assetBundleVariant:
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

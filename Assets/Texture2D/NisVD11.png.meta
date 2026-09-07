@@ -1,7 +1,5 @@
 fileFormatVersion: 2
 guid: af1f864e968a6cf46b95d20c737d2d68
-timeCreated: 1698412422
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: nis_vmim_03
@@ -14,7 +12,7 @@ TextureImporter:
     21300014: nis_vmim_02
     21300016: nis_meadows12
   externalObjects: {}
-  serializedVersion: 4
+  serializedVersion: 9
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -32,6 +30,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -54,18 +54,21 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -126,6 +129,12 @@ TextureImporter:
         - {x: -105, y: -51.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 53b6796608fccf24a9b54734835f4599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: nis_meadows10
       rect:
@@ -144,6 +153,12 @@ TextureImporter:
         - {x: 300, y: 165}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b198a73dae12f7643845c1ba390e7eab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Border
       rect:
@@ -162,6 +177,12 @@ TextureImporter:
         - {x: 12, y: -12}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 58a994c82b3cf9547afe10b5f2517127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: nis_meadows11
       rect:
@@ -180,6 +201,12 @@ TextureImporter:
         - {x: 400, y: 224}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 13ab57a507a31d449996c68a77718a69
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: nis_meadows09
       rect:
@@ -198,6 +225,12 @@ TextureImporter:
         - {x: 500, y: 311}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b318a0cddb9b1144fa85c51af187b9f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: dialog01
       rect:
@@ -220,6 +253,12 @@ TextureImporter:
         - {x: 36, y: -48}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 1af241165d22bbe4ebd4ab49884a9168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: nis_vcake_03
       rect:
@@ -269,6 +308,12 @@ TextureImporter:
         - {x: -212, y: -27.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 3bb6c89e0c704f94ab205046a39f538e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: nis_vmim_02
       rect:
@@ -309,6 +354,12 @@ TextureImporter:
         - {x: -196.5, y: -62.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 22c23456087aad24a81114278389aa59
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: nis_meadows12
       rect:
@@ -327,9 +378,23 @@ TextureImporter:
         - {x: 400, y: 229}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 5efadb64625128b4f98240335d35f976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
-  spritePackingTag:
-  userData:
-  assetBundleName:
-  assetBundleVariant:
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
