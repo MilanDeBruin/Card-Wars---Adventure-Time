@@ -1,7 +1,5 @@
 fileFormatVersion: 2
 guid: 34a88f06c2773914282d3465fa1af3eb
-timeCreated: 1698412314
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: Portal_frog_1
@@ -15,7 +13,7 @@ TextureImporter:
     21300016: LSP02
     21300018: dialog01
   externalObjects: {}
-  serializedVersion: 4
+  serializedVersion: 9
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -33,6 +31,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -55,18 +55,21 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -170,6 +173,12 @@ TextureImporter:
         - {x: -222.5, y: 17.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4e592eb847c1ad64ba7dd3ac6868ade1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portal_frog_back
       rect:
@@ -188,6 +197,12 @@ TextureImporter:
         - {x: 256, y: 143}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: fb64ed2b3e88a764b97f4b58b2cd5cb8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portal_frog_2
       rect:
@@ -213,6 +228,12 @@ TextureImporter:
         - {x: -28.5, y: -107}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4b282bb37aecf8c4a993b5074bfbae75
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Nis04_01_fionnacakeback
       rect:
@@ -266,6 +287,12 @@ TextureImporter:
         - {x: 64, y: 150}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 56a54a1add6abe54bb61a1d62e4a225c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portal_frog_3
       rect:
@@ -382,6 +409,12 @@ TextureImporter:
         - {x: -34.5, y: -75}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c1345dffd93237f40917c0b6fbee8efb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Portal_frog_back_2
       rect:
@@ -400,6 +433,12 @@ TextureImporter:
         - {x: 750, y: 562.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0829be45a09cceb43837ac1520d9f9eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Border
       rect:
@@ -418,6 +457,12 @@ TextureImporter:
         - {x: 12, y: -12}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a228e16cb9d834d469c79bbbf5019dfc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Lumpy_Space
       rect:
@@ -436,6 +481,12 @@ TextureImporter:
         - {x: 250, y: 141}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b2a41d2b988b25a4eacbfef8d60a5ade
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: LSP02
       rect:
@@ -511,6 +562,12 @@ TextureImporter:
         - {x: -199, y: -123}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 760e2adfe62a93245b4ba5af28db1b63
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: dialog01
       rect:
@@ -533,9 +590,23 @@ TextureImporter:
         - {x: 36, y: -48}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e71eef263e373a74ab26b0840122e0df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
-  spritePackingTag:
-  userData:
-  assetBundleName:
-  assetBundleVariant:
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

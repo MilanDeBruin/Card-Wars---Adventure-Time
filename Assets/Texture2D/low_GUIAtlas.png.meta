@@ -1,14 +1,12 @@
 fileFormatVersion: 2
 guid: 191c12cbb886d7f4c9f0752e0b0044d7
-timeCreated: 1698901591
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: uiButtonGreen
     21300002: uiCancel
     21300004: CardAmount
   externalObjects: {}
-  serializedVersion: 4
+  serializedVersion: 9
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -26,6 +24,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -48,18 +48,21 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
@@ -91,6 +94,12 @@ TextureImporter:
         - {x: 38, y: 40}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: dcbc42827273669469888ae7cecae077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: uiCancel
       rect:
@@ -111,6 +120,12 @@ TextureImporter:
         - {x: 37.51238, y: -38.46843}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 3f268b56c3690d64abb2a88f2ec74fba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: CardAmount
       rect:
@@ -133,9 +148,23 @@ TextureImporter:
         - {x: 16.5, y: -19.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 7da39f226159b744abb68d524168a12d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

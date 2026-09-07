@@ -1,14 +1,12 @@
 fileFormatVersion: 2
 guid: 522627919c15bd64cabc411b74b84826
-timeCreated: 1698412213
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: SideQuest_Valentine_done
     21300002: SideQuest_Valentine_give
     21300004: SideQuest_Valentine_item
   externalObjects: {}
-  serializedVersion: 4
+  serializedVersion: 9
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
@@ -26,6 +24,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -48,18 +48,21 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -142,6 +145,12 @@ TextureImporter:
         - {x: -63.5, y: 157.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 19f0d1aa7a81f554685c8947606937db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: SideQuest_Valentine_give
       rect:
@@ -214,6 +223,12 @@ TextureImporter:
         - {x: -72.5, y: 124.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e85c890e9f463c24eb8fb254e4fb1941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: SideQuest_Valentine_item
       rect:
@@ -243,9 +258,23 @@ TextureImporter:
         - {x: -17.5, y: -104.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e1b252e00f9eff24d833713c7482bb6d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
-  spritePackingTag:
-  userData:
-  assetBundleName:
-  assetBundleVariant:
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

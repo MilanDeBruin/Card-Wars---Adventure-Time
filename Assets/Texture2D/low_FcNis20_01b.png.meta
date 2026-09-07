@@ -1,7 +1,5 @@
 fileFormatVersion: 2
 guid: ad08d7d4bfca22a4e9d8a52bf5f53f2e
-timeCreated: 1698412367
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: Cakeshappy01
@@ -14,7 +12,7 @@ TextureImporter:
     21300014: Bronut_02
     21300016: Fionna_06_01
   externalObjects: {}
-  serializedVersion: 4
+  serializedVersion: 9
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -32,6 +30,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -54,18 +54,21 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -108,6 +111,12 @@ TextureImporter:
         - {x: 119.5, y: -98}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f7c23fe50c4b6344f9b0486eeb5d5150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Fionna_wha_01png
       rect:
@@ -131,6 +140,12 @@ TextureImporter:
         - {x: 91.25, y: -97.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c3440a35a7834a2408461ca06688fa72
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: CakeSquishy2
       rect:
@@ -153,6 +168,12 @@ TextureImporter:
         - {x: -59.5, y: -80.25}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ec4a392a77048974eacb37ce56abf44d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: FionnaLookingUp2b
       rect:
@@ -176,6 +197,12 @@ TextureImporter:
         - {x: 76.5, y: 16}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 3466971915daa9041a6a2c94f2aa72ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Fionnatalking02
       rect:
@@ -203,6 +230,12 @@ TextureImporter:
         - {x: 121.25, y: -88.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0e486d3b3b37ed64680b0755ab17a3a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: CakeAlertb
       rect:
@@ -229,6 +262,12 @@ TextureImporter:
         - {x: 105.75, y: -75.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 3efa577e7cd5a1740a173016930d98d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Fionnatalking2
       rect:
@@ -250,6 +289,12 @@ TextureImporter:
         - {x: 40.25, y: -82.25}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 3b31b2248ba1cb64493e0ec7a8cc13f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Bronut_02
       rect:
@@ -274,6 +319,12 @@ TextureImporter:
         - {x: -56.75, y: -92}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: dfdb53aadf6ad4f45b8b50dbd0fca8d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Fionna_06_01
       rect:
@@ -307,9 +358,23 @@ TextureImporter:
         - {x: -51, y: -4.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 108427e38df7120439f94c0ce80cda11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
-  spritePackingTag:
-  userData:
-  assetBundleName:
-  assetBundleVariant:
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

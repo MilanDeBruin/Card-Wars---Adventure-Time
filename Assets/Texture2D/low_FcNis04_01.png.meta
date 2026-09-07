@@ -1,7 +1,5 @@
 fileFormatVersion: 2
 guid: c0baebce95422d543a561f438a46f2c3
-timeCreated: 1698412382
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: RunningFionna
@@ -23,7 +21,7 @@ TextureImporter:
     21300032: Groundplane_NIS
     21300034: dialog01
   externalObjects: {}
-  serializedVersion: 4
+  serializedVersion: 9
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -41,6 +39,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,18 +63,21 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -125,6 +128,12 @@ TextureImporter:
         - {x: -127.25, y: -49}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4274fda58da171a4ab5e1f7913115960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Nis04_01_Fisto_02
       rect:
@@ -150,6 +159,12 @@ TextureImporter:
         - {x: 52.75, y: -85.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ba11e78e16aabdf42a4c2bde0a4d1ed1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: RunningFionna02
       rect:
@@ -177,6 +192,12 @@ TextureImporter:
         - {x: 91.25, y: -57}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6f1f392734997c54d9dc470f42689f8e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Cakerunning2
       rect:
@@ -201,6 +222,12 @@ TextureImporter:
         - {x: -89.25, y: -63.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6ef4f982f73164542bcca74461648ea6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Nis04_01_BG_04
       rect:
@@ -219,6 +246,12 @@ TextureImporter:
         - {x: 105.5, y: 59.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 167adbeafe366544d811a421ddd64120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Nis04_01_fionnacakerun
       rect:
@@ -247,6 +280,12 @@ TextureImporter:
         - {x: 13.25, y: -24.25}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 7213a8bcf4dc3b6498daaea54935f489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Nis04_01_BG_01
       rect:
@@ -265,6 +304,12 @@ TextureImporter:
         - {x: 135.75, y: 76.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b84212a7fec978041a8a9f408f1d164d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: CakeFionna
       rect:
@@ -295,6 +340,12 @@ TextureImporter:
         - {x: -86.25, y: 6.25}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: aa23dc93722dfda4b8d516edafa5594d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Nis04_01_BG_03
       rect:
@@ -313,6 +364,12 @@ TextureImporter:
         - {x: 300, y: 77.25}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 986892d29b4ed8b48bf20b7733ce2349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: CakeFionna2
       rect:
@@ -337,6 +394,12 @@ TextureImporter:
         - {x: 97.25, y: -38}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2cd3810503d1ed74ca261175ce9fb664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Nis04_01_BG_02
       rect:
@@ -355,6 +418,12 @@ TextureImporter:
         - {x: 210.5, y: 89.25}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ff90c770c1a856647b3f8edae259e123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Fionnatalking
       rect:
@@ -389,6 +458,12 @@ TextureImporter:
         - {x: -89.75, y: 43.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 55a3ead4e5ca09d4e808df2a703bb306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Nis04_01_Fisto_01
       rect:
@@ -407,6 +482,12 @@ TextureImporter:
         - {x: -23.25, y: -23.25}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 1df3447c260b00a47b932bf382037ded
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TreasureCatRun
       rect:
@@ -444,6 +525,12 @@ TextureImporter:
         - {x: -59.75, y: -52.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: cd6d7fd3750f6ec43a281a4b0495e338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Border
       rect:
@@ -462,6 +549,12 @@ TextureImporter:
         - {x: 6, y: -6}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: d7d3e87f58d7ba14c8d2d2cd25148275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Nis04_01_fionnacakeback2
       rect:
@@ -484,6 +577,12 @@ TextureImporter:
         - {x: -84, y: -41.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c3b8f68530abdc8448e37b3def80cec2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Groundplane_NIS
       rect:
@@ -512,6 +611,12 @@ TextureImporter:
         - {x: 324.5, y: 27}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2e913dbc7effc69448817d264f24fd96
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: dialog01
       rect:
@@ -531,9 +636,23 @@ TextureImporter:
         - {x: 24, y: -22}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: eafe92d8ff1b5d9478eadf645352f6ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
-  spritePackingTag:
-  userData:
-  assetBundleName:
-  assetBundleVariant:
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

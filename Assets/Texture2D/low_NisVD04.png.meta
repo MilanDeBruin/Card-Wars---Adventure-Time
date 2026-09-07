@@ -1,7 +1,5 @@
 fileFormatVersion: 2
 guid: 85317f8bee5af9345bb8da67ec68187c
-timeCreated: 1698412457
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: nis_vcake_01
@@ -10,7 +8,7 @@ TextureImporter:
     21300006: nis_vlm_03
     21300008: dialog01
   externalObjects: {}
-  serializedVersion: 4
+  serializedVersion: 9
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -28,6 +26,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -50,18 +50,21 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -108,6 +111,12 @@ TextureImporter:
         - {x: 39.75, y: -100}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 701893f8ce8d713449a7c2b56fd844e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: nis_meadows03
       rect:
@@ -126,6 +135,12 @@ TextureImporter:
         - {x: 250, y: 140.75}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 66e68c19ba5a564488bd93ce0bfdd442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Border
       rect:
@@ -144,6 +159,12 @@ TextureImporter:
         - {x: 6, y: -6}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f0a4a91969041f349869366fd197f553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: nis_vlm_03
       rect:
@@ -177,6 +198,12 @@ TextureImporter:
         - {x: -89.25, y: 15}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 9c304b11cf69194478022c713e9bd381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: dialog01
       rect:
@@ -195,9 +222,23 @@ TextureImporter:
         - {x: 24, y: 24.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 934ae0fa5ba1a7349a1c3caecaa81973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
-  spritePackingTag:
-  userData:
-  assetBundleName:
-  assetBundleVariant:
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

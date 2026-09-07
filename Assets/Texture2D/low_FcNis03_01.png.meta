@@ -1,7 +1,5 @@
 fileFormatVersion: 2
 guid: d7abd3cfa858e15459870ea1e0a28d2e
-timeCreated: 1698412156
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: Gunter_intro_01
@@ -11,7 +9,7 @@ TextureImporter:
     21300008: Ice_King_intro_01
     21300010: dialog01
   externalObjects: {}
-  serializedVersion: 4
+  serializedVersion: 9
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -29,6 +27,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -51,18 +51,21 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -93,6 +96,12 @@ TextureImporter:
         - {x: 223.75, y: 95.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: d8281ece97a436641a56d8b64221afd1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Ice_King_intro_03
       rect:
@@ -111,6 +120,12 @@ TextureImporter:
         - {x: 250.5, y: 107.75}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 5db22b1eea1eed74b80d6e063ae06344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Ice_King_intro_02
       rect:
@@ -129,6 +144,12 @@ TextureImporter:
         - {x: 224.5, y: 97}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 693d757bdeb2c69439914caf33412334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Cake_intro_03
       rect:
@@ -147,6 +168,12 @@ TextureImporter:
         - {x: 224.5, y: 96.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 1d19c1a65b3bac8419231347939755ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Ice_King_intro_01
       rect:
@@ -165,6 +192,12 @@ TextureImporter:
         - {x: 250, y: 108.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0281f1fa38f902b4f99b6bd9c181c6c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: dialog01
       rect:
@@ -183,9 +216,23 @@ TextureImporter:
         - {x: 24, y: 24.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 5a8d6acee9953c74c981aab69baea7c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
-  spritePackingTag:
-  userData:
-  assetBundleName:
-  assetBundleVariant:
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

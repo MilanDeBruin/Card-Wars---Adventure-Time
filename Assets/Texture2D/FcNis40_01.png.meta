@@ -1,7 +1,5 @@
 fileFormatVersion: 2
 guid: d01c22d95584507428c1e566718f27c7
-timeCreated: 1698412369
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: IceQueenAttack1
@@ -19,7 +17,7 @@ TextureImporter:
     21300024: Cakeshocked06_02
     21300026: gunter3
   externalObjects: {}
-  serializedVersion: 4
+  serializedVersion: 9
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -37,6 +35,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -59,18 +59,21 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -152,6 +155,12 @@ TextureImporter:
         - {x: -165, y: 53.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6239721d1fa411e47a83417d5b4f8520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: IceQueenLaugh1
       rect:
@@ -249,6 +258,12 @@ TextureImporter:
         - {x: -316, y: -76}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 3e7dd5654a9ee4a45b2d43368b2814df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: IceQueenTalking1
       rect:
@@ -318,6 +333,12 @@ TextureImporter:
         - {x: -285, y: -45}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 66a5a894860af664d9fc7a8eb17cf443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Fionna_intro_02
       rect:
@@ -371,6 +392,12 @@ TextureImporter:
         - {x: -2, y: -243.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 80930740767555f43a408c34f3f794d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: dialog01
       rect:
@@ -393,6 +420,12 @@ TextureImporter:
         - {x: 36, y: -48}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 5d4fd945d66ed6545b58f2caf56f258a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Fionna_06_01
       rect:
@@ -432,6 +465,12 @@ TextureImporter:
         - {x: -92, y: -198}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 7c87de515a0bf424cb52aff4fa330e27
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Border
       rect:
@@ -450,6 +489,12 @@ TextureImporter:
         - {x: 12, y: -12}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 7b5dd5a223d002f48b897b0575d0fe29
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: icebackground01
       rect:
@@ -468,6 +513,12 @@ TextureImporter:
         - {x: 337, y: 190}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: cca78c0eadef2d647af3e4299c0c06eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: icekingdom01
       rect:
@@ -486,6 +537,12 @@ TextureImporter:
         - {x: 319, y: 190}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 3c39e972015d2134c9342c5445f3b243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: icekingdom02
       rect:
@@ -504,6 +561,12 @@ TextureImporter:
         - {x: 358.5, y: 179}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: bd588937ebb3ab64ea5545bf760b002e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: IceQueenLaugh2
       rect:
@@ -584,6 +647,12 @@ TextureImporter:
         - {x: -264, y: -36}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: efc0083e65b681246a5f491e2a51aebd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Fionna_Cake_shocked
       rect:
@@ -634,6 +703,12 @@ TextureImporter:
         - {x: 47.46194, y: -209}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 7d9d9d21a7a346140b2481f795750700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Cakeshocked06_02
       rect:
@@ -668,6 +743,12 @@ TextureImporter:
         - {x: -131, y: -115.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2db74f51da476934db2b5c3ea55a80ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: gunter3
       rect:
@@ -738,9 +819,23 @@ TextureImporter:
         - {x: 64.5, y: -223}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 97055e170d4f15445838b3103e8f80e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
-  spritePackingTag:
-  userData:
-  assetBundleName:
-  assetBundleVariant:
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

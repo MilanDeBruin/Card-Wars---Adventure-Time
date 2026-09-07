@@ -1,7 +1,5 @@
 fileFormatVersion: 2
 guid: 0e12a1fed9b3d084cb57f55fafca6e74
-timeCreated: 1698412237
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: Gunter_intro_01
@@ -16,7 +14,7 @@ TextureImporter:
     21300018: icekingangry
     21300020: dialog01b
   externalObjects: {}
-  serializedVersion: 4
+  serializedVersion: 9
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -34,6 +32,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -56,18 +56,21 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -98,6 +101,12 @@ TextureImporter:
         - {x: 224.25, y: 95.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a7565e37ea901c44a943ec221ec0ae55
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Ice_King_intro_03
       rect:
@@ -116,6 +125,12 @@ TextureImporter:
         - {x: 250, y: 107.75}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 32e5f0e543fbe5642841fe1b92f0f0ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: giantgunter
       rect:
@@ -134,6 +149,12 @@ TextureImporter:
         - {x: 200, y: 113}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 1379fe8bd4eacd34092fff58c1456417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: gunterback
       rect:
@@ -152,6 +173,12 @@ TextureImporter:
         - {x: 182.25, y: 72.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a76ca1ecec454bd4b97633b0592f34c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: FionnaCakeReach
       rect:
@@ -175,6 +202,12 @@ TextureImporter:
         - {x: 59.75, y: -85}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: da10ae6dc7a209c47b3a431df351c74d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Ice_Kingdom
       rect:
@@ -193,6 +226,12 @@ TextureImporter:
         - {x: 200, y: 114}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e70400d34d295cf4cbf58b42dbf34957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: gunter2
       rect:
@@ -217,6 +256,12 @@ TextureImporter:
         - {x: -28, y: -70.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 16f399249a739cc49b92f20788399ec1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Ice_King_intro_02
       rect:
@@ -235,6 +280,12 @@ TextureImporter:
         - {x: 225, y: 96.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 54454dae53e918c42a41e88f39eed6d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: LSP2
       rect:
@@ -253,6 +304,12 @@ TextureImporter:
         - {x: 186.75, y: 105}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 98f4101753c5f7a4b8e72035864a1b34
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: icekingangry
       rect:
@@ -271,6 +328,12 @@ TextureImporter:
         - {x: 142.5, y: 80}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a73d970e6952dde4ebea6e11e394d87a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: dialog01b
       rect:
@@ -290,9 +353,23 @@ TextureImporter:
         - {x: 35.25, y: -31.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ec1db2663c4e0784d9537e08d6657f03
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
-  spritePackingTag:
-  userData:
-  assetBundleName:
-  assetBundleVariant:
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

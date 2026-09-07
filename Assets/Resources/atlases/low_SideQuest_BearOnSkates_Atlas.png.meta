@@ -1,14 +1,12 @@
 fileFormatVersion: 2
 guid: 9196cae937be7f54a9b3a92f65fd9781
-timeCreated: 1698411931
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: SideQuest_BearOnSkates_item
     21300002: SideQuest_BearOnSkates_done
     21300004: SideQuest_BearOnSkates_give
   externalObjects: {}
-  serializedVersion: 4
+  serializedVersion: 9
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -26,6 +24,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -48,18 +48,21 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -91,6 +94,12 @@ TextureImporter:
         - {x: 28.75, y: -25.25}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 785fc359f47518b4497b81863467ab34
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: SideQuest_BearOnSkates_done
       rect:
@@ -111,6 +120,12 @@ TextureImporter:
         - {x: 79.75, y: -69.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 1ad401c54e529164aacedf855fdd8704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: SideQuest_BearOnSkates_give
       rect:
@@ -149,9 +164,23 @@ TextureImporter:
         - {x: -15.5, y: -77.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: be51b5168d91922468fa4450be8d6eb7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
-  spritePackingTag:
-  userData:
-  assetBundleName:
-  assetBundleVariant:
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

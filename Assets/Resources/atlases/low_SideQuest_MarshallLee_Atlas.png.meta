@@ -1,14 +1,12 @@
 fileFormatVersion: 2
 guid: ad304e5ffb19cd74f9f974c8ff3efa97
-timeCreated: 1698411938
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: SideQuest_MarshallLee_item
     21300002: SideQuest_MarshallLee_done
     21300004: SideQuest_MarshallLee_give
   externalObjects: {}
-  serializedVersion: 4
+  serializedVersion: 9
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
@@ -26,6 +24,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -48,18 +48,21 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -95,6 +98,12 @@ TextureImporter:
         - {x: 45.25, y: -49}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6aea76aba7a1182479dd10feafa2b0df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: SideQuest_MarshallLee_done
       rect:
@@ -123,6 +132,12 @@ TextureImporter:
         - {x: 54.75, y: -87.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 302f809802fd84d4fa0b41fd82a87d9b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: SideQuest_MarshallLee_give
       rect:
@@ -148,9 +163,23 @@ TextureImporter:
         - {x: -95.25, y: -119.75}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e8ee275b8cabcfb44a1c2e570ace2db8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
-  spritePackingTag:
-  userData:
-  assetBundleName:
-  assetBundleVariant:
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

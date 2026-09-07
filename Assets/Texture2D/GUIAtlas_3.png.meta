@@ -1,7 +1,5 @@
 fileFormatVersion: 2
 guid: cb3d5bd279bcdfc47a9a443b89b95176
-timeCreated: 1698901964
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: BMO_Next_Button
@@ -17,7 +15,7 @@ TextureImporter:
     21300020: Icon_CardGold
     21300022: Fistogoldcard
   externalObjects: {}
-  serializedVersion: 4
+  serializedVersion: 9
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -35,6 +33,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -57,18 +57,21 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
@@ -101,6 +104,12 @@ TextureImporter:
         - {x: 68.5, y: -85}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 7b451167db4676842a10ae01ce52de67
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Fisto_Frame
       rect:
@@ -130,6 +139,12 @@ TextureImporter:
         - {x: -99.5, y: -89}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f4cb47d496ff8fa4bb384b9bd6e24c2b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TC_portraitbox
       rect:
@@ -164,6 +179,12 @@ TextureImporter:
         - {x: -113, y: -126.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: cbaf317c3785c6e47876428f6f01a4b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: TC_challengebox
       rect:
@@ -198,6 +219,12 @@ TextureImporter:
         - {x: -113, y: -126.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: cb462cdf4c27b034c82d0babde4203f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: fistosurrender
       rect:
@@ -280,6 +307,12 @@ TextureImporter:
         - {x: 289.5, y: -205.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 9065bba5664368c46950f89665a3ff43
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: fistobeback
       rect:
@@ -361,6 +394,12 @@ TextureImporter:
         - {x: -218, y: -161.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 5e3e846761950b04aa655fc72402ea95
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Fisto_SwordR
       rect:
@@ -450,6 +489,12 @@ TextureImporter:
         - {x: 147.5, y: -191.0069}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 7f90dbc463bbafc44a4babb3377c0972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Fisto_SwordL
       rect:
@@ -532,6 +577,12 @@ TextureImporter:
         - {x: -171.5, y: -247.0069}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 922661347e48f1c44baa619daddb7504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Fisto_mit
       rect:
@@ -604,6 +655,12 @@ TextureImporter:
         - {x: 162.5, y: -201}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6b2a87d63b5f2bc44a12775228660d95
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Fisto_burst
       rect:
@@ -776,6 +833,12 @@ TextureImporter:
         - {x: 303.5, y: -265.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b6da03c59704f0540855aead84f13e53
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Icon_CardGold
       rect:
@@ -795,6 +858,12 @@ TextureImporter:
         - {x: 38.5, y: 60}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 504b7a51d6063d045ba3caa3f56b7606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Fistogoldcard
       rect:
@@ -1007,9 +1076,23 @@ TextureImporter:
         - {x: 312.5, y: -312.5}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: af2fb75852b4af74b822851cad9fa062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
