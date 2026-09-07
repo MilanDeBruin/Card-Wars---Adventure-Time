@@ -1,12 +1,18 @@
 fileFormatVersion: 2
 guid: 8850a29d82ade7342b02c3f793a57013
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: dialog01
-    21300002: Border
-    21300004: nis_meadows05
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: dialog01
+  - first:
+      213: 21300002
+    second: Border
+  - first:
+      213: 21300004
+    second: nis_meadows05
   externalObjects: {}
-  serializedVersion: 9
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -60,8 +66,9 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -72,6 +79,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -96,6 +104,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: ded7e203c020b1546921af0c3987da74
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -120,6 +129,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 02285a90ce260f04590d35696fa35f4a
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -144,6 +154,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: ed5029fe0d3c18f47a2f8f4b19e9d9fe
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -152,10 +163,12 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

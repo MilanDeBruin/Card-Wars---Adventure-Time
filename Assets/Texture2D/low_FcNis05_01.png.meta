@@ -1,19 +1,39 @@
 fileFormatVersion: 2
 guid: 1641ad8751bc9064d8261df378a38229
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Portal_frog_1
-    21300002: Portal_frog_back
-    21300004: Portal_frog_2
-    21300006: Nis04_01_fionnacakeback
-    21300008: Portal_frog_3
-    21300010: Portal_frog_back_2
-    21300012: Border
-    21300014: Lumpy_Space
-    21300016: LSP02
-    21300018: dialog01
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Portal_frog_1
+  - first:
+      213: 21300002
+    second: Portal_frog_back
+  - first:
+      213: 21300004
+    second: Portal_frog_2
+  - first:
+      213: 21300006
+    second: Nis04_01_fionnacakeback
+  - first:
+      213: 21300008
+    second: Portal_frog_3
+  - first:
+      213: 21300010
+    second: Portal_frog_back_2
+  - first:
+      213: 21300012
+    second: Border
+  - first:
+      213: 21300014
+    second: Lumpy_Space
+  - first:
+      213: 21300016
+    second: LSP02
+  - first:
+      213: 21300018
+    second: dialog01
   externalObjects: {}
-  serializedVersion: 9
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -67,8 +87,9 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -79,6 +100,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -120,6 +142,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: d847818c7ca7d5f4a99352dbf5e3b890
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -144,6 +167,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 6b0689919db1f9c41aba6c8f2fe3a11d
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -172,6 +196,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 3194e5c2a95bfd94591f3b249529407d
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -200,6 +225,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: a49610c27f2ed584280bdd398dec5313
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -247,6 +273,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: efc2322dc3ee2904d9bf99df642bde12
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
@@ -271,6 +298,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 659e4a88e8ec0c84c83fe243da37f140
+      internalID: 21300010
       vertices: []
       indices: 
       edges: []
@@ -295,6 +323,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: df82c665aa0e5c242be54b6c05848bfa
+      internalID: 21300012
       vertices: []
       indices: 
       edges: []
@@ -319,6 +348,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 094beb5966de7f84890ed7c0720d7088
+      internalID: 21300014
       vertices: []
       indices: 
       edges: []
@@ -353,6 +383,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: c6f07438d95abbc409a6569508842138
+      internalID: 21300016
       vertices: []
       indices: 
       edges: []
@@ -378,6 +409,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: f058d279b11ab054489978f62e013599
+      internalID: 21300018
       vertices: []
       indices: 
       edges: []
@@ -386,10 +418,12 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

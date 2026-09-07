@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class LocalizedAsset : MonoBehaviour
 {
@@ -20,15 +21,15 @@ public class LocalizedAsset : MonoBehaviour
 		{
 			return;
 		}
-		if (target.GetType() == typeof(GUITexture))
+		if (target.GetType() == typeof(RawImage))
 		{
-			GUITexture gUITexture = (GUITexture)target;
-			if (gUITexture.texture != null)
+			RawImage rawImage = (RawImage)target;
+			if (rawImage.texture != null)
 			{
-				Texture texture = (Texture)Language.GetAsset(gUITexture.texture.name);
+				Texture texture = (Texture)Language.GetAsset(rawImage.texture.name);
 				if (texture != null)
 				{
-					gUITexture.texture = texture;
+					rawImage.texture = texture;
 				}
 			}
 		}

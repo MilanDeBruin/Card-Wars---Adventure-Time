@@ -1,14 +1,24 @@
 fileFormatVersion: 2
 guid: 732761cda3290fd4582d43aa6a36631f
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: sidequest_dialog
-    21300002: sidequest_exclaim
-    21300004: sidequest_roundpanel
-    21300006: sidequest_roundframe
-    21300008: Tutorial_Arrow
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: sidequest_dialog
+  - first:
+      213: 21300002
+    second: sidequest_exclaim
+  - first:
+      213: 21300004
+    second: sidequest_roundpanel
+  - first:
+      213: 21300006
+    second: sidequest_roundframe
+  - first:
+      213: 21300008
+    second: Tutorial_Arrow
   externalObjects: {}
-  serializedVersion: 9
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -62,8 +72,9 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -74,6 +85,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -101,6 +113,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: d162601cc147b094f9dc89b557ccaef1
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -127,6 +140,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: eaa3bfcc08616334c94a03caea4863fa
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -155,6 +169,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 1bb47900ed352d94eade7a8bbb175b8a
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -193,6 +208,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: d8ab0ab9995080b4b902f9cb6eb0ad2e
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -221,6 +237,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 6b52c0a57402a9e41a57113604bc0001
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
@@ -229,10 +246,12 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

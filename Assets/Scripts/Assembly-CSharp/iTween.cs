@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class iTween : MonoBehaviour
 {
@@ -319,13 +320,13 @@ public class iTween : MonoBehaviour
 		{
 			args.Add("easetype", EaseType.linear);
 		}
-		if ((bool)target.GetComponent<GUITexture>())
+		if ((bool)target.GetComponent<RawImage>())
 		{
-			color2 = (color = target.GetComponent<GUITexture>().color);
+			color2 = (color = target.GetComponent<RawImage>().color);
 		}
-		else if ((bool)target.GetComponent<GUIText>())
+		else if ((bool)target.GetComponent<Text>())
 		{
-			color2 = (color = target.GetComponent<GUIText>().material.color);
+			color2 = (color = target.GetComponent<Text>().color);
 		}
 		else if ((bool)target.GetComponent<Renderer>())
 		{
@@ -368,13 +369,13 @@ public class iTween : MonoBehaviour
 			color.a = (float)args["alpha"];
 			args.Remove("alpha");
 		}
-		if ((bool)target.GetComponent<GUITexture>())
+		if ((bool)target.GetComponent<RawImage>())
 		{
-			target.GetComponent<GUITexture>().color = color;
+			target.GetComponent<RawImage>().color = color;
 		}
-		else if ((bool)target.GetComponent<GUIText>())
+		else if ((bool)target.GetComponent<Text>())
 		{
-			target.GetComponent<GUIText>().material.color = color;
+			target.GetComponent<Text>().color = color;
 		}
 		else if ((bool)target.GetComponent<Renderer>())
 		{
@@ -1183,15 +1184,15 @@ public class iTween : MonoBehaviour
 
 	private void GenerateColorToTargets()
 	{
-		if ((bool)GetComponent<GUITexture>())
+		if ((bool)GetComponent<RawImage>())
 		{
 			colors = new Color[1, 3];
-			colors[0, 0] = (colors[0, 1] = GetComponent<GUITexture>().color);
+			colors[0, 0] = (colors[0, 1] = GetComponent<RawImage>().color);
 		}
-		else if ((bool)GetComponent<GUIText>())
+		else if ((bool)GetComponent<Text>())
 		{
 			colors = new Color[1, 3];
-			colors[0, 0] = (colors[0, 1] = GetComponent<GUIText>().material.color);
+			colors[0, 0] = (colors[0, 1] = GetComponent<Text>().color);
 		}
 		else if ((bool)GetComponent<Renderer>())
 		{
@@ -1950,13 +1951,13 @@ public class iTween : MonoBehaviour
 			colors[i, 2].b = ease(colors[i, 0].b, colors[i, 1].b, percentage);
 			colors[i, 2].a = ease(colors[i, 0].a, colors[i, 1].a, percentage);
 		}
-		if ((bool)GetComponent<GUITexture>())
+		if ((bool)GetComponent<RawImage>())
 		{
-			GetComponent<GUITexture>().color = colors[0, 2];
+			GetComponent<RawImage>().color = colors[0, 2];
 		}
-		else if ((bool)GetComponent<GUIText>())
+		else if ((bool)GetComponent<Text>())
 		{
-			GetComponent<GUIText>().material.color = colors[0, 2];
+			GetComponent<Text>().color = colors[0, 2];
 		}
 		else if ((bool)GetComponent<Renderer>())
 		{
@@ -1973,13 +1974,13 @@ public class iTween : MonoBehaviour
 		{
 			return;
 		}
-		if ((bool)GetComponent<GUITexture>())
+		if ((bool)GetComponent<RawImage>())
 		{
-			GetComponent<GUITexture>().color = colors[0, 1];
+			GetComponent<RawImage>().color = colors[0, 1];
 		}
-		else if ((bool)GetComponent<GUIText>())
+		else if ((bool)GetComponent<Text>())
 		{
-			GetComponent<GUIText>().material.color = colors[0, 1];
+			GetComponent<Text>().color = colors[0, 1];
 		}
 		else if ((bool)GetComponent<Renderer>())
 		{
@@ -2524,13 +2525,13 @@ public class iTween : MonoBehaviour
 		{
 			num = Defaults.updateTime;
 		}
-		if ((bool)target.GetComponent<GUITexture>())
+		if ((bool)target.GetComponent<RawImage>())
 		{
-			array[0] = (array[1] = target.GetComponent<GUITexture>().color);
+			array[0] = (array[1] = target.GetComponent<RawImage>().color);
 		}
-		else if ((bool)target.GetComponent<GUIText>())
+		else if ((bool)target.GetComponent<Text>())
 		{
-			array[0] = (array[1] = target.GetComponent<GUIText>().material.color);
+			array[0] = (array[1] = target.GetComponent<Text>().color);
 		}
 		else if ((bool)target.GetComponent<Renderer>())
 		{
@@ -2567,13 +2568,13 @@ public class iTween : MonoBehaviour
 		array[3].g = Mathf.SmoothDamp(array[0].g, array[1].g, ref array[2].g, num);
 		array[3].b = Mathf.SmoothDamp(array[0].b, array[1].b, ref array[2].b, num);
 		array[3].a = Mathf.SmoothDamp(array[0].a, array[1].a, ref array[2].a, num);
-		if ((bool)target.GetComponent<GUITexture>())
+		if ((bool)target.GetComponent<RawImage>())
 		{
-			target.GetComponent<GUITexture>().color = array[3];
+			target.GetComponent<RawImage>().color = array[3];
 		}
-		else if ((bool)target.GetComponent<GUIText>())
+		else if ((bool)target.GetComponent<Text>())
 		{
-			target.GetComponent<GUIText>().material.color = array[3];
+			target.GetComponent<Text>().color = array[3];
 		}
 		else if ((bool)target.GetComponent<Renderer>())
 		{
@@ -3255,8 +3256,20 @@ public class iTween : MonoBehaviour
 	{
 		if ((bool)cameraFade)
 		{
-			cameraFade.transform.position = new Vector3(cameraFade.transform.position.x, cameraFade.transform.position.y, depth);
+			cameraFade.GetComponent<Canvas>().sortingOrder = depth;
 		}
+	}
+
+	private static GameObject CreateCameraFade(Texture2D texture, int depth)
+	{
+		GameObject gameObject = new GameObject("iTween Camera Fade", typeof(RectTransform), typeof(Canvas), typeof(CanvasRenderer), typeof(RawImage));
+		Canvas component = gameObject.GetComponent<Canvas>();
+		component.renderMode = RenderMode.ScreenSpaceOverlay;
+		component.sortingOrder = depth;
+		RawImage component2 = gameObject.GetComponent<RawImage>();
+		component2.texture = texture;
+		component2.color = new Color(0.5f, 0.5f, 0.5f, 0f);
+		return gameObject;
 	}
 
 	public static void CameraFadeDestroy()
@@ -3271,7 +3284,7 @@ public class iTween : MonoBehaviour
 	{
 		if ((bool)cameraFade)
 		{
-			cameraFade.GetComponent<GUITexture>().texture = texture;
+			cameraFade.GetComponent<RawImage>().texture = texture;
 		}
 	}
 
@@ -3281,11 +3294,7 @@ public class iTween : MonoBehaviour
 		{
 			return null;
 		}
-		cameraFade = new GameObject("iTween Camera Fade");
-		cameraFade.transform.position = new Vector3(0.5f, 0.5f, depth);
-		cameraFade.AddComponent<GUITexture>();
-		cameraFade.GetComponent<GUITexture>().texture = texture;
-		cameraFade.GetComponent<GUITexture>().color = new Color(0.5f, 0.5f, 0.5f, 0f);
+		cameraFade = CreateCameraFade(texture, depth);
 		return cameraFade;
 	}
 
@@ -3295,11 +3304,7 @@ public class iTween : MonoBehaviour
 		{
 			return null;
 		}
-		cameraFade = new GameObject("iTween Camera Fade");
-		cameraFade.transform.position = new Vector3(0.5f, 0.5f, Defaults.cameraFadeDepth);
-		cameraFade.AddComponent<GUITexture>();
-		cameraFade.GetComponent<GUITexture>().texture = texture;
-		cameraFade.GetComponent<GUITexture>().color = new Color(0.5f, 0.5f, 0.5f, 0f);
+		cameraFade = CreateCameraFade(texture, Defaults.cameraFadeDepth);
 		return cameraFade;
 	}
 
@@ -3309,11 +3314,7 @@ public class iTween : MonoBehaviour
 		{
 			return null;
 		}
-		cameraFade = new GameObject("iTween Camera Fade");
-		cameraFade.transform.position = new Vector3(0.5f, 0.5f, Defaults.cameraFadeDepth);
-		cameraFade.AddComponent<GUITexture>();
-		cameraFade.GetComponent<GUITexture>().texture = CameraTexture(Color.black);
-		cameraFade.GetComponent<GUITexture>().color = new Color(0.5f, 0.5f, 0.5f, 0f);
+		cameraFade = CreateCameraFade(CameraTexture(Color.black), Defaults.cameraFadeDepth);
 		return cameraFade;
 	}
 

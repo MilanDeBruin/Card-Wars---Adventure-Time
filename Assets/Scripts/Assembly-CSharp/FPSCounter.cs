@@ -7,7 +7,7 @@ public class FPSCounter : MonoBehaviour
 
 	public UISprite bar;
 
-	private GUIText guiText;
+	private TextMesh guiText;
 
 	private UILabel uiLabel;
 
@@ -17,7 +17,7 @@ public class FPSCounter : MonoBehaviour
 
 	private void OnEnable()
 	{
-		guiText = base.gameObject.GetComponent<GUIText>();
+		guiText = base.gameObject.GetComponent<TextMesh>();
 		textMesh = base.gameObject.GetComponent<TextMesh>();
 		uiLabel = base.gameObject.GetComponent<UILabel>();
 		StartCoroutine(FPS());
@@ -50,7 +50,7 @@ public class FPSCounter : MonoBehaviour
 			{
 				if (guiText != null)
 				{
-					guiText.material.color = Color.yellow;
+					guiText.color = Color.yellow;
 				}
 				if (uiLabel != null)
 				{
@@ -65,7 +65,7 @@ public class FPSCounter : MonoBehaviour
 			{
 				if (guiText != null)
 				{
-					guiText.material.color = Color.red;
+					guiText.color = Color.red;
 				}
 				if (uiLabel != null)
 				{
@@ -80,7 +80,7 @@ public class FPSCounter : MonoBehaviour
 			{
 				if (guiText != null)
 				{
-					guiText.material.color = Color.green;
+					guiText.color = Color.green;
 				}
 				if (uiLabel != null)
 				{

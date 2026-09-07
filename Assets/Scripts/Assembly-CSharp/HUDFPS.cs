@@ -10,7 +10,7 @@ public class HUDFPS : MonoBehaviour
 
 	private float timeleft;
 
-	private GUIText guiText;
+	private TextMesh guiText;
 
 	private TextMesh textMesh;
 
@@ -18,9 +18,9 @@ public class HUDFPS : MonoBehaviour
 
 	private void Start()
 	{
-		if (base.gameObject.GetComponent<GUIText>() != null)
+		if (base.gameObject.GetComponent<TextMesh>() != null)
 		{
-			guiText = base.gameObject.GetComponent<GUIText>();
+			guiText = base.gameObject.GetComponent<TextMesh>();
 		}
 		if (base.gameObject.GetComponent<TextMesh>() != null)
 		{
@@ -60,7 +60,7 @@ public class HUDFPS : MonoBehaviour
 		{
 			if (guiText != null)
 			{
-				guiText.material.color = Color.yellow;
+				guiText.color = Color.yellow;
 			}
 			if (uiLabel != null)
 			{
@@ -72,7 +72,7 @@ public class HUDFPS : MonoBehaviour
 		{
 			if (guiText != null)
 			{
-				guiText.material.color = Color.red;
+				guiText.color = Color.red;
 			}
 			if (uiLabel != null)
 			{
@@ -83,7 +83,7 @@ public class HUDFPS : MonoBehaviour
 		{
 			if (guiText != null)
 			{
-				guiText.material.color = Color.green;
+				guiText.color = Color.green;
 			}
 			if (uiLabel != null)
 			{

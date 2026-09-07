@@ -12,7 +12,7 @@ public class NcDrawFpsText : MonoBehaviour
 
 	private void Start()
 	{
-		if (!GetComponent<GUIText>())
+		if (!GetComponent<TextMesh>())
 		{
 			base.enabled = false;
 		}
@@ -31,18 +31,18 @@ public class NcDrawFpsText : MonoBehaviour
 		{
 			float num = accum / (float)frames;
 			string text = string.Format("{0:F2} FPS", num);
-			GetComponent<GUIText>().text = text;
+			GetComponent<TextMesh>().text = text;
 			if (num < 30f)
 			{
-				GetComponent<GUIText>().material.color = Color.yellow;
+				GetComponent<TextMesh>().color = Color.yellow;
 			}
 			else if (num < 10f)
 			{
-				GetComponent<GUIText>().material.color = Color.red;
+				GetComponent<TextMesh>().color = Color.red;
 			}
 			else
 			{
-				GetComponent<GUIText>().material.color = Color.green;
+				GetComponent<TextMesh>().color = Color.green;
 			}
 			timeleft = updateInterval;
 			accum = 0f;

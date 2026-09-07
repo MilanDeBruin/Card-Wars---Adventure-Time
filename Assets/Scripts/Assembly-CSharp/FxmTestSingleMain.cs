@@ -4,7 +4,7 @@ public class FxmTestSingleMain : MonoBehaviour
 {
 	public GameObject[] m_EffectPrefabs = new GameObject[1];
 
-	public GUIText m_EffectGUIText;
+	public TextMesh m_EffectGUIText;
 
 	public int m_nIndex;
 

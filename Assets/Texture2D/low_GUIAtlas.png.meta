@@ -1,12 +1,18 @@
 fileFormatVersion: 2
 guid: 191c12cbb886d7f4c9f0752e0b0044d7
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: uiButtonGreen
-    21300002: uiCancel
-    21300004: CardAmount
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: uiButtonGreen
+  - first:
+      213: 21300002
+    second: uiCancel
+  - first:
+      213: 21300004
+    second: CardAmount
   externalObjects: {}
-  serializedVersion: 9
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -60,8 +66,9 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 4096
     resizeAlgorithm: 0
@@ -72,6 +79,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -96,6 +104,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: dcbc42827273669469888ae7cecae077
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -122,6 +131,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 3f268b56c3690d64abb2a88f2ec74fba
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -150,6 +160,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 7da39f226159b744abb68d524168a12d
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -158,10 +169,12 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

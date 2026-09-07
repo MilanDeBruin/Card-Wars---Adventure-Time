@@ -1,12 +1,18 @@
 fileFormatVersion: 2
 guid: 39f73bcef44a78147b26f097f760635e
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: SideQuest_PartyGod_item
-    21300002: SideQuest_PartyGod_done
-    21300004: SideQuest_PartyGod_give
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: SideQuest_PartyGod_item
+  - first:
+      213: 21300002
+    second: SideQuest_PartyGod_done
+  - first:
+      213: 21300004
+    second: SideQuest_PartyGod_give
   externalObjects: {}
-  serializedVersion: 9
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
@@ -60,8 +66,9 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -72,6 +79,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -98,6 +106,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 207a948e8aebee9419015efea47d71a0
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -134,6 +143,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 55c70e3794e80aa479b877fd731521ab
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -165,6 +175,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 4b44ba7d9fd247e4888f4b4e616aac5a
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -173,10 +184,12 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

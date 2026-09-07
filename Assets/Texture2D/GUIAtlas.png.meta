@@ -1,11 +1,15 @@
 fileFormatVersion: 2
 guid: b435e61488ec58243afa043031ff595d
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: CardAmount
-    21300002: uiCancel
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: CardAmount
+  - first:
+      213: 21300002
+    second: uiCancel
   externalObjects: {}
-  serializedVersion: 9
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -59,8 +63,9 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 4096
     resizeAlgorithm: 0
@@ -71,6 +76,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -96,6 +102,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 1eaaddbb44e176e4eafca1b315e9c9f0
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -124,6 +131,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 72d426312f5295f42aab886a6adc13ee
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -132,10 +140,12 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -1,12 +1,18 @@
 fileFormatVersion: 2
 guid: fac298f92419db44281667155d5dae31
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: SideQuest_Valentine_done
-    21300002: SideQuest_Valentine_give
-    21300004: SideQuest_Valentine_item
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: SideQuest_Valentine_done
+  - first:
+      213: 21300002
+    second: SideQuest_Valentine_give
+  - first:
+      213: 21300004
+    second: SideQuest_Valentine_item
   externalObjects: {}
-  serializedVersion: 9
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
@@ -60,8 +66,9 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -72,6 +79,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -147,6 +155,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 809856fc4f1409e4d848d3fb15e9cb99
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -225,6 +234,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 358507c6a62e4574e8dacbf059df1d7c
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -260,6 +270,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 858de65332c010e44aedea3acf4873b7
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -268,10 +279,12 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

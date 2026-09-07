@@ -1,12 +1,18 @@
 fileFormatVersion: 2
 guid: 87c949d732232ff4bbb275d97f13f1dc
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: SideQuest_Fezz_done
-    21300002: SideQuest_Fezz_give
-    21300004: SideQuest_Fezz_item
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: SideQuest_Fezz_done
+  - first:
+      213: 21300002
+    second: SideQuest_Fezz_give
+  - first:
+      213: 21300004
+    second: SideQuest_Fezz_item
   externalObjects: {}
-  serializedVersion: 9
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
@@ -60,8 +66,9 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -72,6 +79,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -136,6 +144,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: a0d28ba85b6908b4496a74b27fb4e4dc
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -176,6 +185,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 48c80c085369de04587db5eec294c1a2
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -235,6 +245,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 484e4fe622bfa6742b04921a37fcc555
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -243,10 +254,12 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
